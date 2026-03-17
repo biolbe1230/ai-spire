@@ -4,7 +4,7 @@
   "author": "YuxuanLi",
   "description": "Mod that uses AI to play StS2",
   "version": "1.0",
-  "has_pck": true,        
+  "has_pck": false,        
   "has_dll": true,      
   "dependencies": [""],    
   "affects_gameplay": true 
