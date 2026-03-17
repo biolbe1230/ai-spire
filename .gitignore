@@ -8,5 +8,8 @@ decompiled/
 # user config with API keys
 config.json
 
+# Godot auto-generated UID files
+*.uid
+
 # build outputs
 *.pck

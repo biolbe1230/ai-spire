@@ -1,5 +1,5 @@
 # AI Spire 🃏🤖
-
+![alt text](front_page.png)
 用 LLM 自动玩杀戮尖塔 2 (Slay the Spire 2) 的 AI Mod。
 
 AI 会实时分析战斗状态、手牌、敌人意图，通过 DeepSeek 等 LLM API 做出决策，自动出牌、使用药水、选择地图路径。
@@ -17,45 +17,49 @@ AI 会实时分析战斗状态、手牌、敌人意图，通过 DeepSeek 等 LLM
 ## 前置要求
 
 - **Slay the Spire 2** (Steam, v0.98+)
-- **.NET 9.0 SDK**
-- **Godot .NET SDK 4.5.1**（通过 NuGet 自动还原）
-- 一个 **OpenAI 兼容的 LLM API Key**（默认使用 DeepSeek）
 
 ## 安装与使用
 
-### 1. 克隆仓库
+### 1. 下载 Mod
 
-```bash
-git clone --recurse-submodules https://github.com/biolbe1230/ai-spire.git
-cd ai-spire
+前往 [Releases 页面](https://github.com/biolbe1230/ai-spire/releases/tag/v0.1.0)，下载最新的 **AISpire.zip**。
+
+### 2. 放置文件
+
+将压缩包解压到杀戮尖塔 2 的 `mods` 目录下：
+
+```
+{杀戮尖塔2安装目录}/mods/AISpire/
 ```
 
-> `spire-codex` 是 git submodule，`--recurse-submodules` 会自动拉取。如果忘了加，执行：
-> ```bash
-> git submodule update --init --recursive
-> ```
+> **找到安装目录**：Steam 中右键游戏 → 管理 → 浏览本地文件
 
-### 2. 配置
+解压后目录结构应为：
 
-复制配置模板并填入你的 API Key：
-
-```bash
-cp config.example.json config.json
+```
+mods/
+└── AISpire/
+    ├── AISpire.dll          # Mod 主体
+    ├── AISpire.json         # Mod 清单（必须保留）
+    ├── config.json          # 配置文件（需要编辑）
+    └── data/                # 游戏数据
+        ├── cards.json
+        ├── monsters.json
+        ├── powers.json
+        └── relics.json
 ```
 
-编辑 `config.json`：
+> ⚠️ 以上所有文件都是必需的，请勿删除。
+
+### 3. 配置 API Key
+
+编辑 `mods/AISpire/config.json`，填入你的 LLM API 密钥：
 
 ```json
 {
   "api_key": "sk-你的API密钥",
   "api_endpoint": "https://api.deepseek.com/v1/chat/completions",
-  "model": "deepseek-chat",
-  "api_timeout_ms": 15000,
-  "max_retries": 1,
-  "enabled": true,
-  "action_delay_ms": 500,
-  "verbose_logging": true,
-  "max_history_messages": 40
+  "model": "deepseek-chat"
 }
 ```
 
@@ -71,29 +75,33 @@ cp config.example.json config.json
 | `verbose_logging` | 详细日志 | `true` |
 | `max_history_messages` | 多轮对话最大历史消息数 | `40` |
 
-### 3. 修改游戏路径
+### 4. 启动游戏
 
-编辑 `AISpire.csproj`，将 `Sts2Dir` 改为你的杀戮尖塔 2 安装目录：
+正常启动杀戮尖塔 2，Mod 会自动加载。进入战斗后 AI 将接管操作（目前版本只有战斗内AI可接管）。
 
-```xml
-<Sts2Dir>D:\SteamLibrary\steamapps\common\Slay the Spire 2</Sts2Dir>
-```
+---
 
-### 4. 编译
+<details>
+<summary><b>从源码构建（开发者）</b></summary>
 
-```bash
-dotnet build
-```
+#### 环境要求
+
+- .NET 9.0 SDK
+- Godot .NET SDK 4.5.1（NuGet 自动还原）
+
+#### 步骤
+
+1. 克隆仓库：`git clone --recurse-submodules https://github.com/biolbe1230/ai-spire.git`
+2. 编辑 `AISpire.csproj`，将 `Sts2Dir` 改为你的杀戮尖塔 2 安装目录：
+   ```xml
+   <Sts2Dir>D:\SteamLibrary\steamapps\common\Slay the Spire 2</Sts2Dir>
+   ```
+3. 复制配置模板：`cp config.example.json config.json`，填入 API Key
+4. 编译：`dotnet build`
 
 编译后会自动将 DLL、config.json 和游戏数据复制到 `{Sts2Dir}/mods/AISpire/`。
 
-### 5. 导出 PCK（首次或修改 Godot 资源后）
-
-使用 Godot 编辑器导出 PCK 文件到 `{Sts2Dir}/mods/AISpire/AISpire.pck`。
-
-### 6. 启动游戏
-
-正常启动杀戮尖塔 2，Mod 会自动加载。进入战斗后 AI 将接管操作。
+</details>
 
 ## 项目结构
 
