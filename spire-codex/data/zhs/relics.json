@@ -1,0 +1,2603 @@
+[
+    {
+        "id":  "AKABEKO",
+        "name":  "赤牛",
+        "description":  "在每场战斗开始时，获得8点活力。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/akabeko.png"
+    },
+    {
+        "id":  "ALCHEMICAL_COFFER",
+        "name":  "炼金箱",
+        "description":  "拾起时，获得4个放有随机药水的药水栏位。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/alchemical_coffer.png"
+    },
+    {
+        "id":  "AMETHYST_AUBERGINE",
+        "name":  "紫水晶茄子",
+        "description":  "敌人额外掉落X金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/amethyst_aubergine.png"
+    },
+    {
+        "id":  "ANCHOR",
+        "name":  "锚",
+        "description":  "每场战斗开始时获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/anchor.png"
+    },
+    {
+        "id":  "ARCANE_SCROLL",
+        "name":  "奥术卷轴",
+        "description":  "拾起时，将一张随机稀有牌加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/arcane_scroll.png"
+    },
+    {
+        "id":  "ARCHAIC_TOOTH",
+        "name":  "古老牙齿",
+        "description":  "拾起时，将一张初始卡牌变化为先古版本。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/archaic_tooth.png"
+    },
+    {
+        "id":  "ART_OF_WAR",
+        "name":  "孙子兵法",
+        "description":  "如果你在本回合中没有打出过攻击牌，则在下一回合额外获得1点X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/art_of_war.png"
+    },
+    {
+        "id":  "ASTROLABE",
+        "name":  "星盘",
+        "description":  "拾起时，选择X张牌进行变化，然后将这些牌升级。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/astrolabe.png"
+    },
+    {
+        "id":  "BAG_OF_MARBLES",
+        "name":  "弹珠袋",
+        "description":  "在每场战斗开始时，给予所有敌人X层易伤。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bag_of_marbles.png"
+    },
+    {
+        "id":  "BAG_OF_PREPARATION",
+        "name":  "准备背包",
+        "description":  "在每场战斗开始时，额外抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bag_of_preparation.png"
+    },
+    {
+        "id":  "BEATING_REMNANT",
+        "name":  "律动残余",
+        "description":  "你在一回合内失去的生命值不会超过20点。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/beating_remnant.png"
+    },
+    {
+        "id":  "BEAUTIFUL_BRACELET",
+        "name":  "华美手镯",
+        "description":  "拾起时，从你的牌组中选择X张牌，附魔：迅捷3。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/beautiful_bracelet.png"
+    },
+    {
+        "id":  "BELLOWS",
+        "name":  "风箱",
+        "description":  "你在每场战斗开始时的手牌，将被升级。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bellows.png"
+    },
+    {
+        "id":  "BELT_BUCKLE",
+        "name":  "腰带扣",
+        "description":  "当你没有药水时，你额外拥有X点敏捷。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/belt_buckle.png"
+    },
+    {
+        "id":  "BIG_HAT",
+        "name":  "大帽子",
+        "description":  "在每场战斗开始时，将X张随机虚无牌加入你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/big_hat.png"
+    },
+    {
+        "id":  "BIG_MUSHROOM",
+        "name":  "大蘑菇",
+        "description":  "拾起时，将你的最大生命值提升X。在每场战斗开始时，少抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/big_mushroom.png"
+    },
+    {
+        "id":  "BIIIG_HUG",
+        "name":  "大～抱抱",
+        "description":  "拾起时，从你的牌组中移除X张牌。每当你的抽牌堆打乱洗牌时，将一张煤灰加入你的抽牌堆。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/biiig_hug.png"
+    },
+    {
+        "id":  "BING_BONG",
+        "name":  "冰梆",
+        "description":  "每当你往牌组中增添卡牌时，都将额外添加一张相同的牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bing_bong.png"
+    },
+    {
+        "id":  "BLACK_BLOOD",
+        "name":  "黑暗之血",
+        "description":  "在战斗结束时，回复12点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/black_blood.png"
+    },
+    {
+        "id":  "BLACK_STAR",
+        "name":  "黑星",
+        "description":  "精英敌人在被打败时多掉落一件遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/black_star.png"
+    },
+    {
+        "id":  "BLESSED_ANTLER",
+        "name":  "赐福鹿角",
+        "description":  "在每回合开始时获得X点能量。在战斗开始时，将X张晕眩放入你的抽牌堆。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/blessed_antler.png"
+    },
+    {
+        "id":  "BLOOD_SOAKED_ROSE",
+        "name":  "血染玫瑰",
+        "description":  "拾起时，将1张执迷加入你的牌组。在回合开始时获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/blood_soaked_rose.png"
+    },
+    {
+        "id":  "BLOOD_VIAL",
+        "name":  "小血瓶",
+        "description":  "在每场战斗开始时，回复2点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/blood_vial.png"
+    },
+    {
+        "id":  "BONE_FLUTE",
+        "name":  "骨笛",
+        "description":  "每当奥斯提攻击时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/bone_flute.png"
+    },
+    {
+        "id":  "BONE_TEA",
+        "name":  "骨茶",
+        "description":  "在你接下来的场战斗开始时，升级你的初始手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bone_tea.png"
+    },
+    {
+        "id":  "BOOK_OF_FIVE_RINGS",
+        "name":  "五轮书",
+        "description":  "你每将5张牌加入你的牌组时，回复15点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/book_of_five_rings.png"
+    },
+    {
+        "id":  "BOOK_REPAIR_KNIFE",
+        "name":  "修书小刀",
+        "description":  "每当有一名不是“爪牙”的敌人死于灾厄时，回复3点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/book_repair_knife.png"
+    },
+    {
+        "id":  "BOOKMARK",
+        "name":  "书签",
+        "description":  "在每个回合结束时，将随机一张被保留的牌，直到被打出前耗能减少1。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/bookmark.png"
+    },
+    {
+        "id":  "BOOMING_CONCH",
+        "name":  "轰鸣海螺",
+        "description":  "在精英战的战斗开始时，额外抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/booming_conch.png"
+    },
+    {
+        "id":  "BOUND_PHYLACTERY",
+        "name":  "缚魂命匣",
+        "description":  "在你的回合开始时，召唤X",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/bound_phylactery.png"
+    },
+    {
+        "id":  "BOWLER_HAT",
+        "name":  "圆顶礼帽",
+        "description":  "额外获得20%的金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bowler_hat.png"
+    },
+    {
+        "id":  "BREAD",
+        "name":  "面包",
+        "description":  "在你的第一个回合开始时，失去X点能量。在其余的回合开始时，获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bread.png"
+    },
+    {
+        "id":  "BRILLIANT_SCARF",
+        "name":  "艳丽围巾",
+        "description":  "你每回合打出的第5张牌可以被免费打出。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/brilliant_scarf.png"
+    },
+    {
+        "id":  "BRIMSTONE",
+        "name":  "硫磺",
+        "description":  "在你的每个回合开始时，你获得点力量，所有敌人获得点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/brimstone.png"
+    },
+    {
+        "id":  "BRONZE_SCALES",
+        "name":  "铜质鳞片",
+        "description":  "在每场战斗开始时，获得X点荆棘。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/bronze_scales.png"
+    },
+    {
+        "id":  "BURNING_BLOOD",
+        "name":  "燃烧之血",
+        "description":  "在战斗结束时，回复6点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/burning_blood.png"
+    },
+    {
+        "id":  "BURNING_STICKS",
+        "name":  "燃烧木棍",
+        "description":  "每场战斗中你第一次消耗技能牌时，将那张牌的复制品加入你的手牌",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/burning_sticks.png"
+    },
+    {
+        "id":  "BYRDPIP",
+        "name":  "异鸟宝宝",
+        "description":  "拾起时，获得一张异鸟扑击。一只幼年异鸟会在战斗中陪伴你。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/byrdpip.png"
+    },
+    {
+        "id":  "CALLING_BELL",
+        "name":  "召唤铃铛",
+        "description":  "拾起时，获得一个独特的诅咒和3件遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/calling_bell.png"
+    },
+    {
+        "id":  "CANDELABRA",
+        "name":  "烛台",
+        "description":  "在你的第2回合开始时，获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/candelabra.png"
+    },
+    {
+        "id":  "CAPTAINS_WHEEL",
+        "name":  "舵盘",
+        "description":  "在你的第三回合开始时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/captains_wheel.png"
+    },
+    {
+        "id":  "CAULDRON",
+        "name":  "大锅",
+        "description":  "拾起时，制作5瓶随机药水。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/cauldron.png"
+    },
+    {
+        "id":  "CENTENNIAL_PUZZLE",
+        "name":  "百年积木",
+        "description":  "你在每场战斗中第一次损失生命值时，抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/centennial_puzzle.png"
+    },
+    {
+        "id":  "CHANDELIER",
+        "name":  "吊灯",
+        "description":  "在你的第三回合开始时，获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/chandelier.png"
+    },
+    {
+        "id":  "CHARONS_ASHES",
+        "name":  "卡戎之灰",
+        "description":  "每当你消耗一张牌，对所有敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/charons_ashes.png"
+    },
+    {
+        "id":  "CHEMICAL_X",
+        "name":  "化学物X",
+        "description":  "耗能为X的牌的效果数值增加2点。",
+        "flavor":  "警告：严禁与糖、香料还有一切美好的味道混合在一起。",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/chemical_x.png"
+    },
+    {
+        "id":  "CHOICES_PARADOX",
+        "name":  "选择悖论",
+        "description":  "在每场战斗开始时，你可以从X张随机牌中选择1张放入你的手牌。然后被选定的那张牌获得保留。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/choices_paradox.png"
+    },
+    {
+        "id":  "CHOSEN_CHEESE",
+        "name":  "天选芝士",
+        "description":  "在战斗结束时，获得X点最大生命值。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/chosen_cheese.png"
+    },
+    {
+        "id":  "CIRCLET",
+        "name":  "头环",
+        "description":  "这是一个头环。",
+        "flavor":  "一件有趣的遗物，只有当[gold]高塔[/gold]中出现问题，或没有更多遗物可被发现时才会出现。",
+        "rarity":  "None",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/circlet.png"
+    },
+    {
+        "id":  "CLAWS",
+        "name":  "利爪",
+        "description":  "拾起时，将至多X张牌变化为撕咬。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/claws.png"
+    },
+    {
+        "id":  "CLOAK_CLASP",
+        "name":  "斗篷扣",
+        "description":  "在你的回合结束时，每有一张手牌，就获得X点格挡",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/cloak_clasp.png"
+    },
+    {
+        "id":  "CRACKED_CORE",
+        "name":  "破损核心",
+        "description":  "在每场战斗开始时，生成1个闪电充能球。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/cracked_core.png"
+    },
+    {
+        "id":  "CROSSBOW",
+        "name":  "十字弓",
+        "description":  "在你的回合开始时，将一张随机攻击牌加入你的手牌。这张牌在本回合耗能为01点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/crossbow.png"
+    },
+    {
+        "id":  "CURSED_PEARL",
+        "name":  "诅咒珍珠",
+        "description":  "拾起时，获得一张贪婪，获得X金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/cursed_pearl.png"
+    },
+    {
+        "id":  "DARKSTONE_PERIAPT",
+        "name":  "黑石护符",
+        "description":  "每当你获得一张诅咒，就将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/darkstone_periapt.png"
+    },
+    {
+        "id":  "DATA_DISK",
+        "name":  "数据磁盘",
+        "description":  "在每场战斗开始时，获得X点集中。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/data_disk.png"
+    },
+    {
+        "id":  "DAUGHTER_OF_THE_WIND",
+        "name":  "风的女儿",
+        "description":  "每当你打出一张攻击牌时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/daughter_of_the_wind.png"
+    },
+    {
+        "id":  "DELICATE_FROND",
+        "name":  "娇嫩蕨草",
+        "description":  "在每场战斗开始时，用随机药水将你的空药水栏位填满。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/delicate_frond.png"
+    },
+    {
+        "id":  "DEMON_TONGUE",
+        "name":  "恶魔之舌",
+        "description":  "当你第一次在自身回合内失去生命值时，回复等量的生命值。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/demon_tongue.png"
+    },
+    {
+        "id":  "DIAMOND_DIADEM",
+        "name":  "钻石头冠",
+        "description":  "如果你在本回合打出的牌少于等于2张，则受到敌人的伤害减半。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/diamond_diadem.png"
+    },
+    {
+        "id":  "DINGY_RUG",
+        "name":  "肮脏地毯",
+        "description":  "卡牌奖励现在会包括无色牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/dingy_rug.png"
+    },
+    {
+        "id":  "DISTINGUISHED_CAPE",
+        "name":  "卓越斗篷",
+        "description":  "拾起时，失去9点最大生命值。将X张灵体加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/distinguished_cape.png"
+    },
+    {
+        "id":  "DIVINE_DESTINY",
+        "name":  "天命所归",
+        "description":  "在每场战斗开始时，获得X星。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/divine_destiny.png"
+    },
+    {
+        "id":  "DIVINE_RIGHT",
+        "name":  "天赋君权",
+        "description":  "在每场战斗开始时，获得X星。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/divine_right.png"
+    },
+    {
+        "id":  "DOLLYS_MIRROR",
+        "name":  "多利之镜",
+        "description":  "拾起时，从你的牌组中选择一张牌进行复制。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/dollys_mirror.png"
+    },
+    {
+        "id":  "DRAGON_FRUIT",
+        "name":  "火龙果",
+        "description":  "每当你获得金币时，提升X点你的最大生命值。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/dragon_fruit.png"
+    },
+    {
+        "id":  "DREAM_CATCHER",
+        "name":  "捕梦网",
+        "description":  "每当你休息时，可以添加一张牌到你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/dream_catcher.png"
+    },
+    {
+        "id":  "DRIFTWOOD",
+        "name":  "浮木",
+        "description":  "你可以在每一个卡牌奖励中重掷一次。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/driftwood.png"
+    },
+    {
+        "id":  "DUSTY_TOME",
+        "name":  "尘封魔典",
+        "description":  "拾起时，获得一张{AncientCard.StringValue:cond:{}+|先古牌}。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/dusty_tome.png"
+    },
+    {
+        "id":  "ECTOPLASM",
+        "name":  "灵体外质",
+        "description":  "你不能再获得任何金币。在回合开始时获得X点能量",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ectoplasm.png"
+    },
+    {
+        "id":  "ELECTRIC_SHRYMP",
+        "name":  "放电异虾",
+        "description":  "拾起时，选择一张技能牌为它附魔：注能。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/electric_shrymp.png"
+    },
+    {
+        "id":  "EMBER_TEA",
+        "name":  "余烬茶",
+        "description":  "在接下来的场战斗开始时，获得2点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ember_tea.png"
+    },
+    {
+        "id":  "EMOTION_CHIP",
+        "name":  "情感芯片",
+        "description":  "在每回合开始时，如果你在之前回合受到过伤害，则触发所有充能球的被动效果。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/emotion_chip.png"
+    },
+    {
+        "id":  "EMPTY_CAGE",
+        "name":  "空鸟笼",
+        "description":  "",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/empty_cage.png"
+    },
+    {
+        "id":  "ETERNAL_FEATHER",
+        "name":  "永恒羽毛",
+        "description":  "你的牌组中每有5张牌，当你进入休息处时就会回复3点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/eternal_feather.png"
+    },
+    {
+        "id":  "FAKE_ANCHOR",
+        "name":  "锚？？？",
+        "description":  "在每场战斗开始时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_anchor.png"
+    },
+    {
+        "id":  "FAKE_BLOOD_VIAL",
+        "name":  "小血瓶？？？",
+        "description":  "在每场战斗开始时，回复1点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_blood_vial.png"
+    },
+    {
+        "id":  "FAKE_HAPPY_FLOWER",
+        "name":  "开心小花？？？",
+        "description":  "每5个回合，获得1点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_happy_flower.png"
+    },
+    {
+        "id":  "FAKE_LEES_WAFFLE",
+        "name":  "李家华夫饼？？？",
+        "description":  "拾起时，回复你10%的生命值。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_lees_waffle.png"
+    },
+    {
+        "id":  "FAKE_MANGO",
+        "name":  "芒果？？？",
+        "description":  "拾起时，将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_mango.png"
+    },
+    {
+        "id":  "FAKE_MERCHANTS_RUG",
+        "name":  "商人的地毯？？？",
+        "description":  "低劣的仿制品。没有任何作用。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_merchants_rug.png"
+    },
+    {
+        "id":  "FAKE_ORICHALCUM",
+        "name":  "奥利哈钢？？？",
+        "description":  "如果你在回合结束时没有任何格挡，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_orichalcum.png"
+    },
+    {
+        "id":  "FAKE_SNECKO_EYE",
+        "name":  "异蛇之眼？？？",
+        "description":  "每场战斗开始时获得混乱效果。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_snecko_eye.png"
+    },
+    {
+        "id":  "FAKE_STRIKE_DUMMY",
+        "name":  "打击木偶？？？",
+        "description":  "名字中有“打击”的卡牌造成1点额外伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_strike_dummy.png"
+    },
+    {
+        "id":  "FAKE_VENERABLE_TEA_SET",
+        "name":  "古茶具套装？？？",
+        "description":  "到达休息处后的下一场战斗开始时额外获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fake_venerable_tea_set.png"
+    },
+    {
+        "id":  "FENCING_MANUAL",
+        "name":  "击剑指南",
+        "description":  "在每场战斗开始时，铸造X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/fencing_manual.png"
+    },
+    {
+        "id":  "FESTIVE_POPPER",
+        "name":  "节日拉炮",
+        "description":  "在每场战斗开始时，对所有敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/festive_popper.png"
+    },
+    {
+        "id":  "FIDDLE",
+        "name":  "小提琴",
+        "description":  "在每个回合开始时，额外抽X张牌。你在回合进行中不再能抽任何牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fiddle.png"
+    },
+    {
+        "id":  "FORGOTTEN_SOUL",
+        "name":  "遗忘之魂",
+        "description":  "每当你消耗一张牌，随机对一名敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/forgotten_soul.png"
+    },
+    {
+        "id":  "FRAGRANT_MUSHROOM",
+        "name":  "芳香蘑菇",
+        "description":  "拾起时，失去15点生命，然后随机升级3张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fragrant_mushroom.png"
+    },
+    {
+        "id":  "FRESNEL_LENS",
+        "name":  "菲涅耳透镜",
+        "description":  "每当你将一张带有格挡的牌加入你的牌组时，为那张牌附魔：灵巧2",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fresnel_lens.png"
+    },
+    {
+        "id":  "FROZEN_EGG",
+        "name":  "冻结之蛋",
+        "description":  "每当你获得能力牌时，将其升级。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/frozen_egg.png"
+    },
+    {
+        "id":  "FUNERARY_MASK",
+        "name":  "葬礼面具",
+        "description":  "在每场战斗开始时，将X张灵魂加入你的抽牌堆。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/funerary_mask.png"
+    },
+    {
+        "id":  "FUR_COAT",
+        "name":  "皮草大衣",
+        "description":  "拾起时，随机标记7处战斗。这些战斗中的敌人将只有1点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/fur_coat.png"
+    },
+    {
+        "id":  "GALACTIC_DUST",
+        "name":  "星系尘埃",
+        "description":  "每消耗X点1星，就获得X格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/galactic_dust.png"
+    },
+    {
+        "id":  "GAMBLING_CHIP",
+        "name":  "赌博筹码",
+        "description":  "在每场战斗开始时，丢弃任意张牌，然后抽相同数量张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/gambling_chip.png"
+    },
+    {
+        "id":  "GAME_PIECE",
+        "name":  "棋子",
+        "description":  "每当你打出能力牌时，抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/game_piece.png"
+    },
+    {
+        "id":  "GHOST_SEED",
+        "name":  "幽灵种子",
+        "description":  "打击和防御获得虚无。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ghost_seed.png"
+    },
+    {
+        "id":  "GIRYA",
+        "name":  "壶铃",
+        "description":  "你现在能在休息处获得力量。（最多3次）",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/girya.png"
+    },
+    {
+        "id":  "GLASS_EYE",
+        "name":  "玻璃眼珠",
+        "description":  "拾起时，获得2组普通、2组罕见、和1组稀有卡牌奖励。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/glass_eye.png"
+    },
+    {
+        "id":  "GLITTER",
+        "name":  "亮片",
+        "description":  "为所有的卡牌奖励附魔：华彩。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/glitter.png"
+    },
+    {
+        "id":  "GNARLED_HAMMER",
+        "name":  "扭曲锤子",
+        "description":  "拾起时，从你的牌组中选择至多3张攻击牌，附魔：锋利3。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/gnarled_hammer.png"
+    },
+    {
+        "id":  "GOLD_PLATED_CABLES",
+        "name":  "镀金缆线",
+        "description":  "你最右侧的充能球会额外触发一次被动效果。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/gold_plated_cables.png"
+    },
+    {
+        "id":  "GOLDEN_COMPASS",
+        "name":  "黄金罗盘",
+        "description":  "拾起时，将第2阶段的地图替换为一条特殊的直道。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/golden_compass.png"
+    },
+    {
+        "id":  "GOLDEN_PEARL",
+        "name":  "金色珍珠",
+        "description":  "拾起时，获得X金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/golden_pearl.png"
+    },
+    {
+        "id":  "GORGET",
+        "name":  "护喉甲",
+        "description":  "在每场战斗开始时，获得X层覆甲。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/gorget.png"
+    },
+    {
+        "id":  "GREMLIN_HORN",
+        "name":  "地精之角",
+        "description":  "每当有一名敌人死亡时，获得X点能量并抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/gremlin_horn.png"
+    },
+    {
+        "id":  "HAND_DRILL",
+        "name":  "手钻",
+        "description":  "每当你突破敌人的格挡时，给予其X层易伤。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/hand_drill.png"
+    },
+    {
+        "id":  "HAPPY_FLOWER",
+        "name":  "开心小花",
+        "description":  "每3个回合，获得1点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/happy_flower.png"
+    },
+    {
+        "id":  "HELICAL_DART",
+        "name":  "螺线飞镖",
+        "description":  "你每打出一张小刀，就在本回合获得X点敏捷。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/helical_dart.png"
+    },
+    {
+        "id":  "HISTORY_COURSE",
+        "name":  "历史课",
+        "description":  "在你的回合开始时，打出一张你上一回合最后打出的攻击牌或技能牌的复制品。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/history_course.png"
+    },
+    {
+        "id":  "HORN_CLEAT",
+        "name":  "船夹板",
+        "description":  "在你的第二回合开始时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/horn_cleat.png"
+    },
+    {
+        "id":  "ICE_CREAM",
+        "name":  "冰淇淋",
+        "description":  "多余的能量可以留到下一回合。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ice_cream.png"
+    },
+    {
+        "id":  "INFUSED_CORE",
+        "name":  "注能核心",
+        "description":  "在每场战斗开始时，生成3个闪电充能球。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/infused_core.png"
+    },
+    {
+        "id":  "INTIMIDATING_HELMET",
+        "name":  "骇人头盔",
+        "description":  "每当你打出一张耗能大于等于X点能量的牌，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/intimidating_helmet.png"
+    },
+    {
+        "id":  "IRON_CLUB",
+        "name":  "铁棒",
+        "description":  "你每打出X张牌，就抽1张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/iron_club.png"
+    },
+    {
+        "id":  "IVORY_TILE",
+        "name":  "象牙麻将牌",
+        "description":  "每当你打出一张耗能大于等于X点能量的牌时，获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/ivory_tile.png"
+    },
+    {
+        "id":  "JEWELED_MASK",
+        "name":  "宝石面具",
+        "description":  "在每场战斗开始时，将一张随机能力牌从你的抽牌堆放入你的手牌，这张牌可以免费打出。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/jeweled_mask.png"
+    },
+    {
+        "id":  "JEWELRY_BOX",
+        "name":  "珠宝盒",
+        "description":  "拾起时，将1张神化加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/jewelry_box.png"
+    },
+    {
+        "id":  "JOSS_PAPER",
+        "name":  "金纸",
+        "description":  "你每消耗5张牌，就抽1张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/joss_paper.png"
+    },
+    {
+        "id":  "JUZU_BRACELET",
+        "name":  "佛珠手链",
+        "description":  "你在?房间中不会再遭遇常规战斗。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/juzu_bracelet.png"
+    },
+    {
+        "id":  "KIFUDA",
+        "name":  "木札",
+        "description":  "拾起时，从你的牌组中选择至多X张牌，附魔：伶俐。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/kifuda.png"
+    },
+    {
+        "id":  "KUNAI",
+        "name":  "苦无",
+        "description":  "你每在同一回合内打出X张攻击牌，就获得X点敏捷。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/kunai.png"
+    },
+    {
+        "id":  "KUSARIGAMA",
+        "name":  "锁镰",
+        "description":  "你每在同一回合内打出X张攻击牌，就随机对一名敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/kusarigama.png"
+    },
+    {
+        "id":  "LANTERN",
+        "name":  "灯笼",
+        "description":  "在每场战斗的第一回合获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lantern.png"
+    },
+    {
+        "id":  "LARGE_CAPSULE",
+        "name":  "巨大扭蛋",
+        "description":  "拾起时，获得2件随机遗物。额外将一对打击和防御，加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/large_capsule.png"
+    },
+    {
+        "id":  "LASTING_CANDY",
+        "name":  "吃不完的糖",
+        "description":  "每两场战斗，你的卡牌奖励就会额外包含一张能力牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lasting_candy.png"
+    },
+    {
+        "id":  "LAVA_LAMP",
+        "name":  "熔岩灯",
+        "description":  "在战斗结束时，如果你没有受伤，则升级你的所有卡牌奖励。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lava_lamp.png"
+    },
+    {
+        "id":  "LAVA_ROCK",
+        "name":  "熔岩石",
+        "description":  "第一阶段的Boss敌人额外掉落2件遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lava_rock.png"
+    },
+    {
+        "id":  "LEAD_PAPERWEIGHT",
+        "name":  "铅制镇纸",
+        "description":  "拾起时，从2张无色牌中选择1张加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lead_paperweight.png"
+    },
+    {
+        "id":  "LEAFY_POULTICE",
+        "name":  "树叶药膏",
+        "description":  "拾起时，变化你的1张打击和1张防御，然后失去X点最大生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/leafy_poultice.png"
+    },
+    {
+        "id":  "LEES_WAFFLE",
+        "name":  "李家华夫饼",
+        "description":  "拾起时，将你的最大生命值提升X点，并回复所有生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lees_waffle.png"
+    },
+    {
+        "id":  "LETTER_OPENER",
+        "name":  "开信刀",
+        "description":  "你每在同一回合内打出X张技能牌，就对所有敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/letter_opener.png"
+    },
+    {
+        "id":  "LIZARD_TAIL",
+        "name":  "蜥蜴尾巴",
+        "description":  "当你要被杀死时，免死并回复到最大生命值的50%（仅能起效一次）。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lizard_tail.png"
+    },
+    {
+        "id":  "LOOMING_FRUIT",
+        "name":  "布质果实",
+        "description":  "拾起时，将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/looming_fruit.png"
+    },
+    {
+        "id":  "LORDS_PARASOL",
+        "name":  "领主阳伞",
+        "description":  "当你遇见商人时，立刻获得他所出售的所有物品。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lords_parasol.png"
+    },
+    {
+        "id":  "LOST_COFFER",
+        "name":  "失物盒",
+        "description":  "拾起时，获得1组卡牌奖励和1瓶随机药水。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lost_coffer.png"
+    },
+    {
+        "id":  "LOST_WISP",
+        "name":  "迷失鬼火",
+        "description":  "你每打出一张能力牌，就对所有敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lost_wisp.png"
+    },
+    {
+        "id":  "LUCKY_FYSH",
+        "name":  "招财异鱼",
+        "description":  "每当你将一张卡牌加入你的牌组时，获得X金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/lucky_fysh.png"
+    },
+    {
+        "id":  "LUNAR_PASTRY",
+        "name":  "月亮糕点",
+        "description":  "在你的回合结束时，获得X星。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/lunar_pastry.png"
+    },
+    {
+        "id":  "MANGO",
+        "name":  "芒果",
+        "description":  "拾起时，将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/mango.png"
+    },
+    {
+        "id":  "MASSIVE_SCROLL",
+        "name":  "巨大卷轴",
+        "description":  "拾起时，从3张多人游戏无色牌中选择1张加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/massive_scroll.png"
+    },
+    {
+        "id":  "MAW_BANK",
+        "name":  "巨口储蓄罐",
+        "description":  "每攀爬一层楼层，就获得X金币。一旦在商店中花费金币就会使其失效。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/maw_bank.png"
+    },
+    {
+        "id":  "MEAL_TICKET",
+        "name":  "餐券",
+        "description":  "每当你进入商店房间时，回复15点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/meal_ticket.png"
+    },
+    {
+        "id":  "MEAT_CLEAVER",
+        "name":  "切肉刀",
+        "description":  "你可以在休息处进行烹饪。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/meat_cleaver.png"
+    },
+    {
+        "id":  "MEAT_ON_THE_BONE",
+        "name":  "带骨肉",
+        "description":  "如果你在战斗结束时生命值等于或低于50%，回复12点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/meat_on_the_bone.png"
+    },
+    {
+        "id":  "MEMBERSHIP_CARD",
+        "name":  "会员卡",
+        "description":  "所有商品打折50%！",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/membership_card.png"
+    },
+    {
+        "id":  "MERCURY_HOURGLASS",
+        "name":  "水银沙漏",
+        "description":  "在你的回合开始时，对所有敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/mercury_hourglass.png"
+    },
+    {
+        "id":  "METRONOME",
+        "name":  "节拍器",
+        "description":  "每场战斗中你首次生成7个充能球时，对所有敌人造成30点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/metronome.png"
+    },
+    {
+        "id":  "MINI_REGENT",
+        "name":  "迷你储君",
+        "description":  "每回合你第一次花费1星时，获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/mini_regent.png"
+    },
+    {
+        "id":  "MINIATURE_CANNON",
+        "name":  "微型大炮",
+        "description":  "升级的攻击牌额外造成3点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/miniature_cannon.png"
+    },
+    {
+        "id":  "MINIATURE_TENT",
+        "name":  "微型帐篷",
+        "description":  "你可以在休息处选择任意数量的选项。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/miniature_tent.png"
+    },
+    {
+        "id":  "MOLTEN_EGG",
+        "name":  "熔火之蛋",
+        "description":  "每当你获得攻击牌时，将其升级。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/molten_egg.png"
+    },
+    {
+        "id":  "MR_STRUGGLES",
+        "name":  "挣扎先生",
+        "description":  "在你的回合开始时，对所有敌人造成等量于当前回合数的伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/mr_struggles.png"
+    },
+    {
+        "id":  "MUMMIFIED_HAND",
+        "name":  "干瘪之手",
+        "description":  "你每打出一张能力牌，手牌中就有一张随机牌在这个回合可以免费打出。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/mummified_hand.png"
+    },
+    {
+        "id":  "MUSIC_BOX",
+        "name":  "音乐盒",
+        "description":  "将你每回合打出的第一张攻击牌的一张虚无复制品加入你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/music_box.png"
+    },
+    {
+        "id":  "MYSTIC_LIGHTER",
+        "name":  "神秘打火机",
+        "description":  "有附魔的攻击牌额外造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/mystic_lighter.png"
+    },
+    {
+        "id":  "NEOWS_TORMENT",
+        "name":  "涅奥的苦痛",
+        "description":  "拾起时，将1张涅奥之怒加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/neows_torment.png"
+    },
+    {
+        "id":  "NEW_LEAF",
+        "name":  "新叶",
+        "description":  "拾起时，变化X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/new_leaf.png"
+    },
+    {
+        "id":  "NINJA_SCROLL",
+        "name":  "忍术卷轴",
+        "description":  "",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/ninja_scroll.png"
+    },
+    {
+        "id":  "NUNCHAKU",
+        "name":  "双截棍",
+        "description":  "你每打出X张攻击牌，获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/nunchaku.png"
+    },
+    {
+        "id":  "NUTRITIOUS_OYSTER",
+        "name":  "营养牡蛎",
+        "description":  "拾起时，将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/nutritious_oyster.png"
+    },
+    {
+        "id":  "NUTRITIOUS_SOUP",
+        "name":  "营养汤",
+        "description":  "拾起时，为你牌组中的所有“打击”附魔：特兹卡塔拉的余烬",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/nutritious_soup.png"
+    },
+    {
+        "id":  "ODDLY_SMOOTH_STONE",
+        "name":  "意外光滑的石头",
+        "description":  "在每场战斗开始时，获得X点敏捷。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/oddly_smooth_stone.png"
+    },
+    {
+        "id":  "OLD_COIN",
+        "name":  "古钱币",
+        "description":  "拾起时，获得X金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/old_coin.png"
+    },
+    {
+        "id":  "ORANGE_DOUGH",
+        "name":  "橙色团块",
+        "description":  "在每场战斗开始时，将X张随机无色牌加入你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/orange_dough.png"
+    },
+    {
+        "id":  "ORICHALCUM",
+        "name":  "奥利哈钢",
+        "description":  "如果你在回合结束时没有任何格挡，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/orichalcum.png"
+    },
+    {
+        "id":  "ORNAMENTAL_FAN",
+        "name":  "精致折扇",
+        "description":  "你每在同一回合内打出X张攻击牌，就获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ornamental_fan.png"
+    },
+    {
+        "id":  "ORRERY",
+        "name":  "星系仪",
+        "description":  "拾起时，获得X组卡牌奖励",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/orrery.png"
+    },
+    {
+        "id":  "PAELS_BLOOD",
+        "name":  "佩尔之血",
+        "description":  "在你的回合开始时，额外抽X张牌",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_blood.png"
+    },
+    {
+        "id":  "PAELS_CLAW",
+        "name":  "佩尔之爪",
+        "description":  "拾起时，为所有的“防御”附魔：。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_claw.png"
+    },
+    {
+        "id":  "PAELS_EYE",
+        "name":  "佩尔之眼",
+        "description":  "你在每场战斗中第一次没有打出任何牌就结束回合时，消耗所有手牌然后进行一个额外回合。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_eye.png"
+    },
+    {
+        "id":  "PAELS_FLESH",
+        "name":  "佩尔之肉",
+        "description":  "从你的第3回合开始，在回合开始时额外获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_flesh.png"
+    },
+    {
+        "id":  "PAELS_GROWTH",
+        "name":  "佩尔的增生组织",
+        "description":  "拾起时，从牌组中选择一张牌，为其附魔：。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_growth.png"
+    },
+    {
+        "id":  "PAELS_HORN",
+        "name":  "佩尔之角",
+        "description":  "拾起时，将2张放松加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_horn.png"
+    },
+    {
+        "id":  "PAELS_LEGION",
+        "name":  "佩尔的士兵",
+        "description":  "将你从一张卡牌内获得的格挡翻倍，然后休眠2个回合。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_legion.png"
+    },
+    {
+        "id":  "PAELS_TEARS",
+        "name":  "佩尔之泪",
+        "description":  "如果你在拥有未花费的1点能量情况下结束回合，则下个回合额外获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_tears.png"
+    },
+    {
+        "id":  "PAELS_TOOTH",
+        "name":  "佩尔之牙",
+        "description":  "拾起时，从你的牌组中选择X张牌移除。在每场战斗结束时，将其中随机1张牌升级然后返还。{CardTitles.StringValue:cond:\n\n在牙中的牌：\n{}|}",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_tooth.png"
+    },
+    {
+        "id":  "PAELS_WING",
+        "name":  "佩尔之翼",
+        "description":  "你可以将你的卡牌奖励献祭给佩尔。每献祭2次，就能获得一件遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/paels_wing.png"
+    },
+    {
+        "id":  "PANDORAS_BOX",
+        "name":  "潘多拉魔盒",
+        "description":  "变化所有“打击”和“防御”。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pandoras_box.png"
+    },
+    {
+        "id":  "PANTOGRAPH",
+        "name":  "缩放仪",
+        "description":  "在Boss战开始时，回复25点生命值。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pantograph.png"
+    },
+    {
+        "id":  "PAPER_KRANE",
+        "name":  "纸鹤",
+        "description":  "有虚弱状态的敌人造成的伤害降低40%而非25%。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/paper_krane.png"
+    },
+    {
+        "id":  "PAPER_PHROG",
+        "name":  "纸蛙",
+        "description":  "有易伤状态的敌人受到的伤害增加75%而非50%。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/paper_phrog.png"
+    },
+    {
+        "id":  "PARRYING_SHIELD",
+        "name":  "招架盾",
+        "description":  "如果你在回合结束时拥有至少X点格挡，则对随机敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/parrying_shield.png"
+    },
+    {
+        "id":  "PEAR",
+        "name":  "梨子",
+        "description":  "拾起时，将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pear.png"
+    },
+    {
+        "id":  "PEN_NIB",
+        "name":  "钢笔尖",
+        "description":  "你每打出的第10张攻击牌将会造成双倍伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pen_nib.png"
+    },
+    {
+        "id":  "PENDULUM",
+        "name":  "摆动球",
+        "description":  "每当你将抽牌堆洗牌时，抽1张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pendulum.png"
+    },
+    {
+        "id":  "PERMAFROST",
+        "name":  "永冻冰晶",
+        "description":  "当你在战斗中第一次打出能力牌时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/permafrost.png"
+    },
+    {
+        "id":  "PETRIFIED_TOAD",
+        "name":  "石化蟾蜍",
+        "description":  "在每场战斗开始时，获得一瓶药水形状的石头",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/petrified_toad.png"
+    },
+    {
+        "id":  "PHILOSOPHERS_STONE",
+        "name":  "贤者之石",
+        "description":  "在每回合开始时获得X点能量。所有敌人初始获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/philosophers_stone.png"
+    },
+    {
+        "id":  "PHYLACTERY_UNBOUND",
+        "name":  "无界命匣",
+        "description":  "在每场战斗开始时，召唤5。在你的回合开始时，召唤2。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/phylactery_unbound.png"
+    },
+    {
+        "id":  "PLANISPHERE",
+        "name":  "活动星图",
+        "description":  "每当你进入？房间的时候，回复4点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/planisphere.png"
+    },
+    {
+        "id":  "POCKETWATCH",
+        "name":  "怀表",
+        "description":  "当你在本回合打出的牌少于等于3张时，则在你的下个回合开始时额外抽3张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pocketwatch.png"
+    },
+    {
+        "id":  "POLLINOUS_CORE",
+        "name":  "花粉核心",
+        "description":  "每4个回合，额外抽2张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pollinous_core.png"
+    },
+    {
+        "id":  "POMANDER",
+        "name":  "橙型香盒",
+        "description":  "拾起时，升级一张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pomander.png"
+    },
+    {
+        "id":  "POTION_BELT",
+        "name":  "药水腰带",
+        "description":  "拾起时，获得2个药水栏位。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/potion_belt.png"
+    },
+    {
+        "id":  "POWER_CELL",
+        "name":  "能量电池",
+        "description":  "在每场战斗开始时，将X张耗能为0的卡牌从你的抽牌堆放入你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/power_cell.png"
+    },
+    {
+        "id":  "PRAYER_WHEEL",
+        "name":  "转经轮",
+        "description":  "普通敌人额外掉落一组卡牌奖励。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/prayer_wheel.png"
+    },
+    {
+        "id":  "PRECARIOUS_SHEARS",
+        "name":  "松动羊毛剪",
+        "description":  "拾起时，从你的牌组中移除X张牌，并受到X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/precarious_shears.png"
+    },
+    {
+        "id":  "PRECISE_SCISSORS",
+        "name":  "精准剪刀",
+        "description":  "拾起时，从你的牌组中移除X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/precise_scissors.png"
+    },
+    {
+        "id":  "PRESERVED_FOG",
+        "name":  "腌制活雾",
+        "description":  "拾起时，从你的牌组中移除X张牌。将一张愚行加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/preserved_fog.png"
+    },
+    {
+        "id":  "PRISMATIC_GEM",
+        "name":  "棱彩宝石",
+        "description":  "在每个回合开始时获得X点能量。卡牌奖励现在会包含其他颜色的卡牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/prismatic_gem.png"
+    },
+    {
+        "id":  "PUMPKIN_CANDLE",
+        "name":  "南瓜蜡烛",
+        "description":  "在每个回合开始时获得X点能量。这件遗物将在第3阶段开始时熄灭。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/pumpkin_candle.png"
+    },
+    {
+        "id":  "PUNCH_DAGGER",
+        "name":  "拳刃",
+        "description":  "拾起时，选择一张攻击牌为它附魔：动量5。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/punch_dagger.png"
+    },
+    {
+        "id":  "RADIANT_PEARL",
+        "name":  "发光珍珠",
+        "description":  "在每场战斗开始时，将X张冷光加入你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/radiant_pearl.png"
+    },
+    {
+        "id":  "RAINBOW_RING",
+        "name":  "彩虹戒指",
+        "description":  "每回合，你第一次打出攻击牌、技能牌和能力牌各一张时，获得X点力量和X点敏捷。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/rainbow_ring.png"
+    },
+    {
+        "id":  "RAZOR_TOOTH",
+        "name":  "剃刀牙",
+        "description":  "你打出攻击牌和技能牌时，将其在本场战斗内升级。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/razor_tooth.png"
+    },
+    {
+        "id":  "RED_MASK",
+        "name":  "红面具",
+        "description":  "在每场战斗开始时，给于所有敌人X层虚弱。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/red_mask.png"
+    },
+    {
+        "id":  "RED_SKULL",
+        "name":  "红头骨",
+        "description":  "当你的生命值低于或等于50%时，你额外获得3点力量",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/red_skull.png"
+    },
+    {
+        "id":  "REGAL_PILLOW",
+        "name":  "皇家枕头",
+        "description":  "在休息时，额外回复15点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/regal_pillow.png"
+    },
+    {
+        "id":  "REGALITE",
+        "name":  "君王矿石",
+        "description":  "每当你生成一张无色牌时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/regalite.png"
+    },
+    {
+        "id":  "REPTILE_TRINKET",
+        "name":  "爬行动物饰品",
+        "description":  "当你使用药水时，在本回合获得X力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/reptile_trinket.png"
+    },
+    {
+        "id":  "RING_OF_THE_DRAKE",
+        "name":  "长蛇戒指",
+        "description":  "在战斗开始时的前3个回合，你额外抽2张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ring_of_the_drake.png"
+    },
+    {
+        "id":  "RING_OF_THE_SNAKE",
+        "name":  "蛇之戒指",
+        "description":  "在每场战斗开始时，额外抽X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "初始遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/ring_of_the_snake.png"
+    },
+    {
+        "id":  "RINGING_TRIANGLE",
+        "name":  "三角铃鼓",
+        "description":  "在每场战斗的第一回合保留你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ringing_triangle.png"
+    },
+    {
+        "id":  "RIPPLE_BASIN",
+        "name":  "波纹水盆",
+        "description":  "如果你在本回合中没有打出过攻击牌，则获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/ripple_basin.png"
+    },
+    {
+        "id":  "ROYAL_POISON",
+        "name":  "王室猛毒",
+        "description":  "在每场战斗开始时，失去X点生命。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/royal_poison.png"
+    },
+    {
+        "id":  "ROYAL_STAMP",
+        "name":  "王室印章",
+        "description":  "拾起时，从牌组中选择一张攻击牌或技能牌，为它附魔：。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/royal_stamp.png"
+    },
+    {
+        "id":  "RUINED_HELMET",
+        "name":  "损毁头盔",
+        "description":  "你在每场战斗中第一次获得的力量值翻倍。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/ruined_helmet.png"
+    },
+    {
+        "id":  "RUNIC_CAPACITOR",
+        "name":  "符文电容器",
+        "description":  "每场战斗开始时，获得X个额外充能球栏位。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/runic_capacitor.png"
+    },
+    {
+        "id":  "RUNIC_PYRAMID",
+        "name":  "符文金字塔",
+        "description":  "你在回合结束时不再自动丢弃所有手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/runic_pyramid.png"
+    },
+    {
+        "id":  "SAI",
+        "name":  "钗",
+        "description":  "在你的回合开始时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sai.png"
+    },
+    {
+        "id":  "SAND_CASTLE",
+        "name":  "沙堡",
+        "description":  "拾起时，随机升级X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sand_castle.png"
+    },
+    {
+        "id":  "SCREAMING_FLAGON",
+        "name":  "尖叫酒壶",
+        "description":  "如果你在回合结束时没有任何手牌，则对所有敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/screaming_flagon.png"
+    },
+    {
+        "id":  "SCROLL_BOXES",
+        "name":  "卷轴箱",
+        "description":  "拾起时，失去所有金币，并从2个卡牌包中选择1包加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/scroll_boxes.png"
+    },
+    {
+        "id":  "SEA_GLASS",
+        "name":  "海玻璃",
+        "description":  "查看X张来自{Character.StringValue:cond:{}|其他角色}的牌。从中选择任意数量的卡牌加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sea_glass.png"
+    },
+    {
+        "id":  "SEAL_OF_GOLD",
+        "name":  "黄金印",
+        "description":  "在你的回合开始时，花费X金币来获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/seal_of_gold.png"
+    },
+    {
+        "id":  "SELF_FORMING_CLAY",
+        "name":  "自成型黏土",
+        "description":  "每当你在战斗中失去生命，就在下回合获得3点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "ironclad",
+        "image_url":  "/static/images/relics/self_forming_clay.png"
+    },
+    {
+        "id":  "SERE_TALON",
+        "name":  "原初之爪",
+        "description":  "拾起时，将2张随机诅咒牌和3张许愿加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sere_talon.png"
+    },
+    {
+        "id":  "SHOVEL",
+        "name":  "铲子",
+        "description":  "现在你可以在休息处挖掘遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/shovel.png"
+    },
+    {
+        "id":  "SHURIKEN",
+        "name":  "手里剑",
+        "description":  "你每在同一回合内打出X张攻击牌，获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/shuriken.png"
+    },
+    {
+        "id":  "SIGNET_RING",
+        "name":  "图章戒指",
+        "description":  "拾起时，获得X金币。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/signet_ring.png"
+    },
+    {
+        "id":  "SILVER_CRUCIBLE",
+        "name":  "白银熔炉",
+        "description":  "你遇到的前X组卡牌奖励将是被升级过的。你打开的第一个宝箱将是空的",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/silver_crucible.png"
+    },
+    {
+        "id":  "SLING_OF_COURAGE",
+        "name":  "勇气投石索",
+        "description":  "在与精英敌人战斗时，获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sling_of_courage.png"
+    },
+    {
+        "id":  "SMALL_CAPSULE",
+        "name":  "小型扭蛋",
+        "description":  "拾起时，获得一件随机遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/small_capsule.png"
+    },
+    {
+        "id":  "SNECKO_EYE",
+        "name":  "异蛇之眼",
+        "description":  "每回合多抽X张牌。每场战斗开始时获得混乱效果。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/snecko_eye.png"
+    },
+    {
+        "id":  "SNECKO_SKULL",
+        "name":  "异蛇头骨",
+        "description":  "每当你给予敌人中毒时，所给予的中毒层数增加X层。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/snecko_skull.png"
+    },
+    {
+        "id":  "SOZU",
+        "name":  "添水",
+        "description":  "你无法再获得药水。在每回合开始时获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sozu.png"
+    },
+    {
+        "id":  "SPARKLING_ROUGE",
+        "name":  "闪亮口红",
+        "description":  "在你的第3回合开始时，获得X点力量和X点敏捷。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sparkling_rouge.png"
+    },
+    {
+        "id":  "SPIKED_GAUNTLETS",
+        "name":  "带刺手甲",
+        "description":  "在每回合开始时获得X点能量。能力牌的耗能增加11点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/spiked_gauntlets.png"
+    },
+    {
+        "id":  "STONE_CALENDAR",
+        "name":  "历石",
+        "description":  "在第7回合结束时，对所有敌人造成52点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/stone_calendar.png"
+    },
+    {
+        "id":  "STONE_CRACKER",
+        "name":  "碎石钻",
+        "description":  "在Boss战开始时，在本场战斗中随机升级你抽牌堆中的X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/stone_cracker.png"
+    },
+    {
+        "id":  "STONE_HUMIDIFIER",
+        "name":  "石炉加湿器",
+        "description":  "每当你在休息处休息时，将你的最大生命值提升X点。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/stone_humidifier.png"
+    },
+    {
+        "id":  "STORYBOOK",
+        "name":  "故事书",
+        "description":  "拾起时，将1张至亮之焰添加到你的牌组中。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/storybook.png"
+    },
+    {
+        "id":  "STRAWBERRY",
+        "name":  "草莓",
+        "description":  "拾起时，将你的最大生命值提升X。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/strawberry.png"
+    },
+    {
+        "id":  "STRIKE_DUMMY",
+        "name":  "打击木偶",
+        "description":  "名字中有“打击”的卡牌造成3点额外伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/strike_dummy.png"
+    },
+    {
+        "id":  "STURDY_CLAMP",
+        "name":  "坚固钳子",
+        "description":  "可以跨回合保留最多X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sturdy_clamp.png"
+    },
+    {
+        "id":  "SWORD_OF_JADE",
+        "name":  "玉之剑",
+        "description":  "在每场战斗开始时，获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sword_of_jade.png"
+    },
+    {
+        "id":  "SWORD_OF_STONE",
+        "name":  "石之剑",
+        "description":  "在击败5名精英敌人之后将变化为一件强力遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/sword_of_stone.png"
+    },
+    {
+        "id":  "SYMBIOTIC_VIRUS",
+        "name":  "共生病毒",
+        "description":  "在每场战斗开始时，生成1个黑暗充能球。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "defect",
+        "image_url":  "/static/images/relics/symbiotic_virus.png"
+    },
+    {
+        "id":  "TANXS_WHISTLE",
+        "name":  "坦克斯的哨子",
+        "description":  "拾起时，将1张吹哨加入你的牌组。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/tanxs_whistle.png"
+    },
+    {
+        "id":  "TEA_OF_DISCOURTESY",
+        "name":  "无礼之茶",
+        "description":  "在下一场战斗开始时，将2张眩晕放入你的抽牌堆。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/tea_of_discourtesy.png"
+    },
+    {
+        "id":  "THE_ABACUS",
+        "name":  "算盘",
+        "description":  "你每次将抽牌堆洗牌时，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/the_abacus.png"
+    },
+    {
+        "id":  "THE_BOOT",
+        "name":  "发条靴",
+        "description":  "每当你造成小于等于4点未被格挡的攻击伤害时，将伤害提升为5。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/the_boot.png"
+    },
+    {
+        "id":  "THE_COURIER",
+        "name":  "送货员",
+        "description":  "商人的卡牌、遗物和药水不再会卖光，并且所有商品打折20%。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/the_courier.png"
+    },
+    {
+        "id":  "THROWING_AXE",
+        "name":  "投斧",
+        "description":  "你在每场战斗中打出的第一张牌会多打出一次。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/throwing_axe.png"
+    },
+    {
+        "id":  "TINGSHA",
+        "name":  "铜钹",
+        "description":  "你每在你的回合丢弃一张牌，就对一名随机敌人造成X点伤害。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/tingsha.png"
+    },
+    {
+        "id":  "TINY_MAILBOX",
+        "name":  "小邮箱",
+        "description":  "每当你休息时，获得一瓶随机药水。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/tiny_mailbox.png"
+    },
+    {
+        "id":  "TOASTY_MITTENS",
+        "name":  "烘焙手套",
+        "description":  "在你的回合开始时，消耗你抽牌堆顶部的牌并获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/toasty_mittens.png"
+    },
+    {
+        "id":  "TOOLBOX",
+        "name":  "工具箱",
+        "description":  "在每场战斗开始时，从X张随机无色牌中选择1张加入你的手牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/toolbox.png"
+    },
+    {
+        "id":  "TOUCH_OF_OROBAS",
+        "name":  "欧洛巴斯之触",
+        "description":  "拾起时，将你的初始遗物替换为先古版本。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/touch_of_orobas.png"
+    },
+    {
+        "id":  "TOUGH_BANDAGES",
+        "name":  "结实绷带",
+        "description":  "你每在你的回合丢弃一张牌，就获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/tough_bandages.png"
+    },
+    {
+        "id":  "TOXIC_EGG",
+        "name":  "毒素之蛋",
+        "description":  "每当你获得技能牌时，将其升级。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/toxic_egg.png"
+    },
+    {
+        "id":  "TOY_BOX",
+        "name":  "玩具盒",
+        "description":  "拾起时，获得4件蜡制遗物。每经过3场战斗，你最左侧的蜡制遗物将会融化。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/toy_box.png"
+    },
+    {
+        "id":  "TRI_BOOMERANG",
+        "name":  "三刃回旋镖",
+        "description":  "从你的牌组中选择X张攻击牌。为这些牌附魔：本能。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/tri_boomerang.png"
+    },
+    {
+        "id":  "TUNGSTEN_ROD",
+        "name":  "钨合金棍",
+        "description":  "你每次失去生命时，减少失去的生命值1点。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/tungsten_rod.png"
+    },
+    {
+        "id":  "TUNING_FORK",
+        "name":  "音叉",
+        "description":  "你每打出X张技能牌，获得X点格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/tuning_fork.png"
+    },
+    {
+        "id":  "TWISTED_FUNNEL",
+        "name":  "扭曲漏斗",
+        "description":  "在每场战斗开始时，给予所有敌人X层中毒。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "silent",
+        "image_url":  "/static/images/relics/twisted_funnel.png"
+    },
+    {
+        "id":  "UNCEASING_TOP",
+        "name":  "不休陀螺",
+        "description":  "在你的回合，当你没有手牌时，抽一张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/unceasing_top.png"
+    },
+    {
+        "id":  "UNDYING_SIGIL",
+        "name":  "不死符文",
+        "description":  "当敌人的灾厄层数大于等于其生命值时，它造成的伤害降低50%。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "necrobinder",
+        "image_url":  "/static/images/relics/undying_sigil.png"
+    },
+    {
+        "id":  "UNSETTLING_LAMP",
+        "name":  "不安油灯",
+        "description":  "你在每场战斗中第一次打出能给予敌人负面状态的牌时，将其效果翻倍。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/unsettling_lamp.png"
+    },
+    {
+        "id":  "VAJRA",
+        "name":  "金刚杵",
+        "description":  "在每场战斗开始时，获得X点力量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/vajra.png"
+    },
+    {
+        "id":  "VAKUU_CARD_SELECTOR",
+        "name":  "VakuuCardSelector",
+        "description":  "",
+        "flavor":  "",
+        "rarity":  "Unknown",
+        "pool":  "shared",
+        "image_url":  null
+    },
+    {
+        "id":  "VAMBRACE",
+        "name":  "臂甲",
+        "description":  "每场战斗中，你第一次从卡牌中获得的格挡值翻倍。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "罕见遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/vambrace.png"
+    },
+    {
+        "id":  "VELVET_CHOKER",
+        "name":  "天鹅绒颈圈",
+        "description":  "在每回合开始时获得X点能量。你每回合不能打出超过X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/velvet_choker.png"
+    },
+    {
+        "id":  "VENERABLE_TEA_SET",
+        "name":  "古茶具套装",
+        "description":  "到达休息处后的下一场战斗开始时额外获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/venerable_tea_set.png"
+    },
+    {
+        "id":  "VERY_HOT_COCOA",
+        "name":  "烫嘴可可",
+        "description":  "在每场战斗的第一回合额外获得X点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/very_hot_cocoa.png"
+    },
+    {
+        "id":  "VEXING_PUZZLEBOX",
+        "name":  "烦人机关盒",
+        "description":  "在每场战斗开始时，将一张随机卡牌加入你的手牌。这张牌的耗能变为01点能量。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/vexing_puzzlebox.png"
+    },
+    {
+        "id":  "VITRUVIAN_MINION",
+        "name":  "维特鲁威仆从",
+        "description":  "名字中有“仆从”的卡牌造成双倍的伤害与格挡。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "regent",
+        "image_url":  "/static/images/relics/vitruvian_minion.png"
+    },
+    {
+        "id":  "WAR_HAMMER",
+        "name":  "战锤",
+        "description":  "每当你击败一名精英敌人的时候，随机升级X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/war_hammer.png"
+    },
+    {
+        "id":  "WAR_PAINT",
+        "name":  "战纹涂料",
+        "description":  "拾起时，随机升级X张技能牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/war_paint.png"
+    },
+    {
+        "id":  "WHETSTONE",
+        "name":  "磨刀石",
+        "description":  "拾起时，随机升级X张攻击牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "普通遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/whetstone.png"
+    },
+    {
+        "id":  "WHISPERING_EARRING",
+        "name":  "低语耳环",
+        "description":  "在每个回合开始时，获得X点能量。瓦库将接管你的第一回合。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/whispering_earring.png"
+    },
+    {
+        "id":  "WHITE_BEAST_STATUE",
+        "name":  "白兽雕像",
+        "description":  "战斗结束后必定掉落药水。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/white_beast_statue.png"
+    },
+    {
+        "id":  "WHITE_STAR",
+        "name":  "白星",
+        "description":  "精英敌人额外掉落一组稀有卡牌奖励。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "稀有遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/white_star.png"
+    },
+    {
+        "id":  "WING_CHARM",
+        "name":  "羽翼护符",
+        "description":  "每组卡牌奖励中，都会有随机一张牌被附魔：迅捷1。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "商店遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/wing_charm.png"
+    },
+    {
+        "id":  "WONGO_CUSTOMER_APPRECIATION_BADGE",
+        "name":  "旺购客户感恩徽章",
+        "description":  "没有任何作用。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/wongo_customer_appreciation_badge.png"
+    },
+    {
+        "id":  "WONGOS_MYSTERY_TICKET",
+        "name":  "旺购神秘券",
+        "description":  "在5场战斗后，获得随机3件遗物。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "事件遗物",
+        "pool":  "shared",
+        "image_url":  "/static/images/relics/wongos_mystery_ticket.png"
+    },
+    {
+        "id":  "YUMMY_COOKIE",
+        "name":  "美味饼干",
+        "description":  "拾起时，升级X张牌。",
+        "flavor":  "[red]这个遗物的细节将在未来揭晓……[/red]",
+        "rarity":  "先古遗物",
+        "pool":  "shared",
+        "image_url":  null
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "id":  "ADROIT",
+        "name":  "伶俐",
+        "description":  "获得X点格挡。",
+        "extra_card_text":  "获得X点[gold]格挡[/gold]。",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "CLONE",
+        "name":  "克隆",
+        "description":  "这张牌能在休息处被复制。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "CORRUPTED",
+        "name":  "腐化",
+        "description":  "造成的伤害增加50%，但会失去2生命。",
+        "extra_card_text":  "失去2点生命。",
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "FAVORED",
+        "name":  "钟爱",
+        "description":  "这张牌的攻击伤害翻倍。",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "GLAM",
+        "name":  "华彩",
+        "description":  "这张牌每场战斗能够重放一次。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "GOOPY",
+        "name":  "黏糊",
+        "description":  "这张牌获得消耗。当被打出时，这张牌的格挡值永久增加1点。",
+        "extra_card_text":  "这张牌的[gold]格挡[/gold]值永久增加[blue]1[/blue]点。",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "IMBUED",
+        "name":  "注能",
+        "description":  "这张牌在每场战斗开始时自动打出。",
+        "extra_card_text":  "注能。",
+        "card_type":  "Skill",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "INSTINCT",
+        "name":  "本能",
+        "description":  "这张牌的费用减少1。",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "MOMENTUM",
+        "name":  "动量",
+        "description":  "在本场战斗中，每次打出就增加这张牌的攻击伤害X点。",
+        "extra_card_text":  "在本场战斗中这张牌的伤害增加X点。",
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "NIMBLE",
+        "name":  "灵巧",
+        "description":  "这张牌获得的格挡值增加X点。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "PERFECT_FIT",
+        "name":  "完美契合",
+        "description":  "每当这张牌要被洗入抽牌堆时，将其放在抽牌堆顶。",
+        "extra_card_text":  "完美契合。",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "ROYALLY_APPROVED",
+        "name":  "皇室认证",
+        "description":  "这张牌拥有固有和保留。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SHARP",
+        "name":  "锋利",
+        "description":  "这张牌上的伤害值增加X点。",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SLITHER",
+        "name":  "蛇行",
+        "description":  "当你抽到这张牌时，使其费用在0到3之间随机变化。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SLUMBERING_ESSENCE",
+        "name":  "沉眠精华",
+        "description":  "回合结束时，如果这张牌在你的手牌中，则将其费用降低1点，直到其被打出。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SOULS_POWER",
+        "name":  "灵魂之力",
+        "description":  "这张牌失去消耗。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SOWN",
+        "name":  "播种",
+        "description":  "你在每场战斗中第一次打出这张牌时，获得X点能量。",
+        "extra_card_text":  "获得[energy:X]。",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SPIRAL",
+        "name":  "涡旋",
+        "description":  "这张牌获得重放1。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "STEADY",
+        "name":  "稳定",
+        "description":  "这张牌获得保留。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SWIFT",
+        "name":  "迅速",
+        "description":  "你第一次打出这张牌时，抽X张牌。",
+        "extra_card_text":  "第一次打出时抽X张牌。",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "TEZCATARAS_EMBER",
+        "name":  "特兹卡塔拉的余烬",
+        "description":  "费用为0且获得永恒。",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "VIGOROUS",
+        "name":  "活力",
+        "description":  "第一次打出这张牌时，造成X点额外伤害。",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    }
+]

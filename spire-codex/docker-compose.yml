@@ -1,0 +1,25 @@
+name: spire-codex
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data:ro
+      - ./backend/static:/app/static:ro
+    environment:
+      - DATA_DIR=/data
+      - FEEDBACK_WEBHOOK_URL=${FEEDBACK_WEBHOOK_URL:-}
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports:
+      - "3000:3000"
+    environment:
+      - HOSTNAME=0.0.0.0
+    depends_on:
+      - backend

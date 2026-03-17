@@ -1,0 +1,28 @@
+name: spire-codex
+
+services:
+  backend:
+    image: ptrlrd/spire-codex-backend:latest
+    container_name: spire-codex-backend
+    volumes:
+      - ./data:/data:ro
+    environment:
+      - DATA_DIR=/data
+      - FEEDBACK_WEBHOOK_URL=${FEEDBACK_WEBHOOK_URL:-}
+    networks:
+      - nginx_web-network
+
+  frontend:
+    image: ptrlrd/spire-codex-frontend:latest
+    container_name: spire-codex-frontend
+    depends_on:
+      - backend
+    environment:
+      - API_INTERNAL_URL=http://backend:8000
+      - NEXT_PUBLIC_SITE_URL=https://spire-codex.com
+    networks:
+      - nginx_web-network
+
+networks:
+  nginx_web-network:
+    external: true

@@ -1,0 +1,22 @@
+# Extraction data (large, from game files)
+extraction/
+*.pck
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+frontend/node_modules/
+.next/
+frontend/.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store

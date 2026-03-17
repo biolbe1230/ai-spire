@@ -1,0 +1,1556 @@
+[
+    {
+        "id":  "COLORLESS1_EPOCH",
+        "title":  "先子星",
+        "era":  "Prehistoria0",
+        "era_name":  "史前",
+        "era_year":  "？？？",
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  -2000000,
+        "description":  "一片空洞的虚无。\n\n可是然后，世界出现而存在了！\n它翻腾着，将自己改造成了“能诉说故事的存在”。过程之中，有一颗名为先子星的行星，那只是宇宙中的一粒微尘。人们说着，这里发生过一个关于高塔的伟大故事。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "AUTOMATION",
+                              "ENTROPY",
+                              "CATASTROPHE"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "POTION1_EPOCH",
+                                 "RELIC1_EPOCH",
+                                 "UNDERDOCKS_EPOCH"
+                             ]
+    },
+    {
+        "id":  "RELIC1_EPOCH",
+        "title":  "涂鸦",
+        "era":  "Prehistoria1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  -1999900,
+        "description":  "在这颗安静的行星上，想象之兽开始星星点点地出现。\n\n它们在这单纯而快乐的暴力时代四处游荡。通过暗示，它们知晓了无数杀戮、进食与繁衍的方法。领地、组织、巢穴与群体纷纷兴盛发达，充斥了先子星的每一个角落。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "UNSETTLING_LAMP",
+                               "INTIMIDATING_HELMET",
+                               "REPTILE_TRINKET"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "COLORLESS2_EPOCH",
+        "title":  "建筑师",
+        "era":  "Prehistoria2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  -1999800,
+        "description":  "有太多想象之兽开始在先子星上繁衍，于是一切不再单纯和有趣。这些生物们完全不合理，怪物们的行动不合逻辑。\n或许还是需要有一个可以创造、摧毁和控制这些混乱的存在？一个自己拥有想象力与意志的实体？\n\n让我们来想象出这么一个存在吧。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "ETERNAL_ARMOR",
+                              "JACKPOT",
+                              "PREP_TIME"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "SILENT6_EPOCH",
+        "title":  "天罚",
+        "era":  "Prehistoria2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Silent",
+        "sort_order":  -1999799,
+        "description":  "苦痛灵魂们化身而成的梦魇幽魂在雾霾之地潜伏游荡。\n\n她下定决心要狩猎那个可怕的鬼魂。狩猎完成之后，她的姐妹们将它的头骨郑重地戴在她的头上。仪式完成了。",
+        "unlock_info":  "以[green]静默猎手[/green]击杀[blue]15[/blue]个[red]Boss[/red]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "TWISTED_FUNNEL",
+                               "SNECKO_SKULL",
+                               "HELICAL_DART"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "CUSTOM_AND_SEEDS_EPOCH",
+        "title":  "种子",
+        "era":  "Seeds0",
+        "era_name":  "种子",
+        "era_year":  "0",
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  0,
+        "description":  "建筑师醉心于动植物们的成长与稳定，不惜花费数十年的时间对它们进行研究和改善……于是最终，造物史中倒数第二次的造物——“先古种子”完成了！\n\n然而这些种子最终却是失败品，被称为“错误”，于是它们被放进一口沉重的箱子、扔进了海底。",
+        "unlock_info":  "通关[blue]第三[/blue][gold]阶段[/gold]三次来揭示这个历史节点。",
+        "unlock_text":  "解锁游戏模式：自定义。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "ACT3_B_EPOCH",
+        "title":  "别处",
+        "era":  "Seeds0",
+        "era_name":  "种子",
+        "era_year":  "0",
+        "era_position":  1,
+        "story_id":  null,
+        "sort_order":  1,
+        "description":  "这是另一段占位文本……当你在抢先体验期间查看这个历史节点时，这段故事还无从知晓……",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  "还不知道这会解锁什么……",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "RELIC2_EPOCH",
+        "title":  "先古之民",
+        "era":  "Seeds1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  101,
+        "description":  "先古之树并非整齐划一。每一棵树都是由周围的环境塑造：有些壮实而茂密，有些扭曲而虬结。\n\n当树木完全成熟时，其中就孕育出其巨大力量的一个化身。\n\n一个先古之民。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "BOOK_OF_FIVE_RINGS",
+                               "ICE_CREAM",
+                               "KUSARIGAMA"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "COLORLESS3_EPOCH",
+        "title":  "两个反叛者",
+        "era":  "Seeds2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  200,
+        "description":  "在众多先古之民中有一个，名叫涅奥的，开始嫉妒起建筑师那令人畏惧的意志。\n\n她将事情告诉了一位想法相同的同胞，然后他们两个在一起创造出了一种最强力的混合物。\n荒疫。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "REND",
+                              "BEAT_DOWN",
+                              "PROWESS"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "IRONCLAD4_EPOCH",
+        "title":  "契约",
+        "era":  "Seeds2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Ironclad",
+        "sort_order":  201,
+        "description":  "数百年来，铁甲军团与河谷卫士之间一直征战不休。一名年轻的铁甲战士怀着远大的抱负，前往禁忌的分界线，与神圣的“恶魔”进行了交易。",
+        "unlock_info":  "以[red]铁甲战士[/red]通关[blue]第三[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  "为[red]铁甲战士[/red]解锁[red]进阶难度[/red]。同时解锁[gold]鲜血药水[/gold]、[gold]士兵炖汤[/gold]和[gold]灰水[/gold]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "BLOOD_POTION",
+                                "SOLDIERS_STEW",
+                                "ASHWATER"
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "IRONCLAD3_EPOCH",
+        "title":  "赶尽杀绝",
+        "era":  "Seeds3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Ironclad",
+        "sort_order":  300,
+        "description":  "铁甲战士的力量突然暴增！\n\n恶魔契约的火焰在他的血液中穿行。淤伤与切割的伤口飞快地愈合着。河谷卫士们被一刀两断、沙漠部落被烧成灰烬、驭风行者们被狠狠砸进了地面，就连一群有些熟悉的、穿戴着铜质铠甲的好斗战士们，也被这些令人兴奋的全新火焰给焚烧了！\n\n所有铁甲军团的敌人都没有得到丝毫的怜悯。所有铁甲军团……铁甲军团？\n……大家都在哪里呢？",
+        "unlock_info":  "以[red]铁甲战士[/red]通关[blue]第二[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "RED_SKULL",
+                               "PAPER_PHROG",
+                               "RUINED_HELMET"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "ACT2_B_EPOCH",
+        "title":  "某处",
+        "era":  "Seeds3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  null,
+        "sort_order":  301,
+        "description":  "这是占位文本……当你在抢先体验期间查看这个历史节点时，这段故事还无从知晓……",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  "还不知道这会解锁什么……",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "COLORLESS4_EPOCH",
+        "title":  "沉睡",
+        "era":  "Seeds3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  302,
+        "description":  "涅奥兴奋地给建筑师递上了一杯从他上次来访后就一直在调配的强效茶水。\n\n“这能... 帮你... ..安睡.....”",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "ALCHEMIZE",
+                              "NOSTALGIA",
+                              "SCRAWL"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "RELIC4_EPOCH",
+        "title":  "后果",
+        "era":  "Blight0",
+        "era_name":  "感染",
+        "era_year":  "1,201",
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  120100,
+        "description":  "荒疫占据了昏迷的建筑师，它的毒性陡然增强！它与涅奥的树结成了共生关系，让树饥饿、不断地生长与成长。\n\n荒疫破坏着整片大地，其他先古之民们控制住了犯人，他们将涅奥囚禁起来，然后藏身躲避那场已经无可阻挡的荒疫。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "MINIATURE_CANNON",
+                               "TUNGSTEN_ROD",
+                               "WHITE_STAR"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "EVENT1_EPOCH",
+                                 "COLORLESS5_EPOCH",
+                                 "RELIC5_EPOCH"
+                             ]
+    },
+    {
+        "id":  "EVENT3_EPOCH",
+        "title":  "高塔",
+        "era":  "Blight1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Magnum_Opus",
+        "sort_order":  120200,
+        "description":  "先古之树的根须无法再从先子星中汲取养分，开始逐渐枯萎和死亡……曾经美丽的森林在永恒的重压之下溃不成军。\n\n就连涅奥的树也失去了枝条与繁茂的树叶。最后的这棵树，已经完全失去了树的样子。\n他们给它起了个名字。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  "解锁事件：[blue]色彩哲学家[/blue]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "IRONCLAD2_EPOCH",
+        "title":  "铁甲战士",
+        "era":  "Blight1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Ironclad",
+        "sort_order":  120201,
+        "description":  "铁甲战士。一名来自遥远他方的战士进入了高塔。\n他已经失去了所有的理性与自我，凭借着纯粹的本能与被诅咒的血而行动。\n\n所有阻挡他攀登的存在都将灭亡。",
+        "unlock_info":  "以[red]铁甲战士[/red]通关[blue]第一[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "MOLTEN_FIST",
+                              "CRUELTY",
+                              "DOMINATE"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "COLORLESS5_EPOCH",
+        "title":  "买点什么吧！",
+        "era":  "Blight1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Tales_From_The_Spire",
+        "sort_order":  120202,
+        "description":  "现金被发明了出来！\n非常时刻需要非常手段……而非常手段需要花费金币！花费那些金币来换取一餐食物、最锋利的匕首、或是最时尚的帽子！！买点什么吧！见到坐在绿色毯子上的蓝衣商人就大胆上前，你就将获得一次难忘的购物体验。我们从不拒绝任何人！\n\n（声明：本段历史节点说明由商人出资提供）",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "SPLASH",
+                              "ANOINTED",
+                              "CALAMITY"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "SILENT4_EPOCH",
+        "title":  "战利品",
+        "era":  "Blight1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  3,
+        "story_id":  "Silent",
+        "sort_order":  120203,
+        "description":  "这个被诅咒的地方摆满了无数奇异的战利品。每一只生物都被一一打败。毕竟，被静默猎手标记的猎物，一定会倒下。",
+        "unlock_info":  "以[green]静默猎手[/green]通关[blue]第三[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  "为[green]静默猎手[/green]解锁[red]进阶难度[/red]。同时解锁[gold]毒药水[/gold]、[gold]罐装幽灵[/gold]和[gold]狡诈药水[/gold]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "POISON_POTION",
+                                "GHOST_IN_A_JAR",
+                                "CUNNING_POTION"
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "SILENT5_EPOCH",
+        "title":  "下毒者",
+        "era":  "Blight2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Silent",
+        "sort_order":  120300,
+        "description":  "另一场狩猎完成了。\n\n静默猎手用专门调配的毒液让腐化的心脏停止了跳动。她用钩索向上腾跃，翻出了塔外，沐浴在令人安心的月光之下。她离开了高塔，手中握着战利品：一块心脏的碎片。",
+        "unlock_info":  "以[green]静默猎手[/green]杀死[blue]15[/blue]个[purple]精英[/purple]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "REFLEX",
+                              "MASTER_PLANNER",
+                              "HAND_TRICK"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DEFECT6_EPOCH",
+        "title":  "激光束",
+        "era":  "Blight2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Defect",
+        "sort_order":  120301,
+        "description":  "故障机器人用超量充能的巨大光束射穿了心脏！！\n\n任务完成……？\n已承受伤害：\u003c临界\u003e\n\n下一目标：\n前往废料场进行评估。",
+        "unlock_info":  "以[blue]故障机器人[/blue]击杀[blue]15[/blue]个[red]Boss[/red]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "GOLD_PLATED_CABLES",
+                               "EMOTION_CHIP",
+                               "POWER_CELL"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "IRONCLAD5_EPOCH",
+        "title":  "火光冲天",
+        "era":  "Blight2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  3,
+        "story_id":  "Ironclad",
+        "sort_order":  120303,
+        "description":  "铁甲战士斩杀了力量处于全盛的心脏……恶魔的契约饥渴地将荒疫吸收到了自己身上。\n\n一瞬间，战士与荒疫都被火焰点燃。寄生虫被吸引到了火光之中，挣扎扭曲着，如同蜡滴坠入火焰般被吞噬殆尽。",
+        "unlock_info":  "以[red]铁甲战士[/red]击杀[blue]15[/blue]个[purple]精英[/purple]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "CINDER",
+                              "PACTS_END",
+                              "DRUM_OF_BATTLE"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "POTION2_EPOCH",
+        "title":  "宁静",
+        "era":  "Flourish0",
+        "era_name":  "兴盛",
+        "era_year":  "1,800",
+        "era_position":  0,
+        "story_id":  "Reopening",
+        "sort_order":  180000,
+        "description":  "荒疫停止了吞噬。\n\n干涸而脆弱的土地开始重新湿润，高塔周围的云层浇灌着土壤，阳光从云层间新出现的缝隙中洒落下来。\n\n事已成了。有人杀死了高塔。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "POWDERED_DEMISE",
+                                "SHIP_IN_A_BOTTLE",
+                                "TOUCH_OF_INSANITY"
+                            ],
+        "expands_timeline":  [
+                                 "ACT2_B_EPOCH",
+                                 "COLORLESS3_EPOCH",
+                                 "RELIC3_EPOCH"
+                             ]
+    },
+    {
+        "id":  "SILENT2_EPOCH",
+        "title":  "更大的猎物",
+        "era":  "Flourish0",
+        "era_name":  "兴盛",
+        "era_year":  "1,800",
+        "era_position":  1,
+        "story_id":  "Silent",
+        "sort_order":  180001,
+        "description":  "另几个姐妹们静默地审视着第四位姐妹……\n她们已经有三个世纪多没有见到她了，而后者带回来的只是一块丑陋的、搏动着的碎片。\n\n静默猎手回忆起在获取这个战利品的途中自己经历的无数考验，但她始终没有开口——开口是一种弱小。要证明自己，始终只能靠更加辉煌的战利品。\n\n总是会有更大的猎物。",
+        "unlock_info":  "以[green]静默猎手[/green]通关[blue]第一[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "SNAKEBITE",
+                              "BUBBLE_BUBBLE",
+                              "ACCELERANT"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "OROBAS_EPOCH",
+        "title":  "欧洛巴斯",
+        "era":  "Flourish0",
+        "era_name":  "兴盛",
+        "era_year":  "1,800",
+        "era_position":  2,
+        "story_id":  "Tales_From_The_Spire",
+        "sort_order":  180002,
+        "description":  "欧洛巴斯的好奇心被燃烧起来的高塔所吸引。\n\n“荒疫消失！！为何消失！进入安全！？欧洛巴斯要进去！！！”",
+        "unlock_info":  "以所有角色完成一局游戏来揭示这个历史节点。",
+        "unlock_text":  "解锁先古之民：[aqua]欧洛巴斯[/aqua]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "EVENT1_EPOCH",
+        "title":  "邪教徒们",
+        "era":  "Flourish1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Tales_From_The_Spire",
+        "sort_order":  180100,
+        "description":  "“咔……咔咔！！”\n如此耻辱的败北……他们的礼拜与献祭之地被可恶的入侵者们一次又一次地毁坏与亵渎。\n\n难道马萨雷斯抛弃了我们吗？\n\n随着虫群的数量激增，高塔中的食物已经变得稀少。信徒们逃向了高塔的底层，靠着吃海藻与下水道动物来维生。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  "解锁事件：[blue]垃圾堆[/blue]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "RELIC5_EPOCH",
+        "title":  "醒来",
+        "era":  "Flourish1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Reopening",
+        "sort_order":  180101,
+        "description":  "建筑师从最为漫长的沉睡中苏醒，那场睡眠并不安稳。\n\n回忆的碎片逐渐归来，可是周遭的一切却无比陌生。\n他已不再是曾经的自己。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "TINY_MAILBOX",
+                               "JOSS_PAPER",
+                               "BEATING_REMNANT"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "EVENT2_EPOCH",
+                                 "EVENT3_EPOCH"
+                             ]
+    },
+    {
+        "id":  "REGENT6_EPOCH",
+        "title":  "不满",
+        "era":  "Flourish1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Regent",
+        "sort_order":  180102,
+        "description":  "储君在自己故乡的星球上，宣称自己是太阳的继承者，并且认定其他行星一定需要知道这个重大消息！\n\n“您这是想要做什么呀，储君？我们这里有自己需要的一切啊！我们不用吃喝、拥有和平、永生不死、而且还很有时尚品味！”一个星国同胞试图说服他。\n\n“你太无聊了！”",
+        "unlock_info":  "以[orange]储君[/orange]击杀[blue]15[/blue]个[red]Boss[/red]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "REGALITE",
+                               "MINI_REGENT",
+                               "ORANGE_DOUGH"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DEFECT3_EPOCH",
+        "title":  "你好！你好！",
+        "era":  "Flourish1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  3,
+        "story_id":  "Defect",
+        "sort_order":  180103,
+        "description":  "故障机器人在废料场思考着自己的命运与目的。\n\n接受自己只是一系列功能的搭载体，这是否不可取呢？是否我们全体都需要在某个特定的功能上做到优秀呢？正在处理这些问题的时候——\n\n“你好！”另一个构装体出现在面前。\n“你好！” 故障机器人回答道。\n“你可以叫我缺陷机器人！”",
+        "unlock_info":  "以[blue]故障机器人[/blue]通关[blue]第二[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "DATA_DISK",
+                               "SYMBIOTIC_VIRUS",
+                               "METRONOME"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "RELIC3_EPOCH",
+        "title":  "文明",
+        "era":  "Flourish1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  4,
+        "story_id":  "Reopening",
+        "sort_order":  180104,
+        "description":  "高塔成为了整个世界的贸易枢纽，全世界的无数社会与文化都前来这里朝圣。\n\n渐渐地，一个高速发展的大都会开始在塔底出现。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "VEXING_PUZZLEBOX",
+                               "RIPPLE_BASIN",
+                               "FESTIVE_POPPER"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "ACT3_B_EPOCH",
+                                 "COLORLESS4_EPOCH",
+                                 "RELIC4_EPOCH"
+                             ]
+    },
+    {
+        "id":  "DEFECT4_EPOCH",
+        "title":  "处理虫子（Bug）",
+        "era":  "Flourish2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Defect",
+        "sort_order":  180200,
+        "description":  "故障机器人和缺陷机器人很快成为了朋友，它们离开了废料场，毕竟那里有太多悲伤。\n\n它们回到了高塔的中间楼层，结果遭遇了一大群害虫！！\n两个机器人开始了工作，试图将虫子的数量控制到可接受的范围内。",
+        "unlock_info":  "以[blue]故障机器人[/blue]通关[blue]第三[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  "解锁[blue]故障机器人[/blue]的[red]进阶难度[/red]。同时解锁[gold]集中药水[/gold]、[gold]黑暗精华[/gold]和[gold]扩容药水[/gold]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "FOCUS_POTION",
+                                "ESSENCE_OF_DARKNESS",
+                                "POTION_OF_CAPACITY"
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "REGENT1_EPOCH",
+        "title":  "异常行星",
+        "era":  "Flourish2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Regent",
+        "sort_order":  180201,
+        "description":  "殿下甚至不再用心去看当前星图中的那些行星档案，只是一味地将它们划掉。“我强烈要求能去造访一个更加刺激的行星！”\n储君双拳狠狠砸在了太空控制台上——\n*嘀 嘀 嘀*\n检测到异常行星！",
+        "unlock_info":  "以[green]静默猎手[/green]完成一局游戏来揭示这个历史节点。",
+        "unlock_text":  "解锁[orange]储君[/orange]成为一名可玩角色。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "REGENT2_EPOCH",
+                                 "REGENT3_EPOCH",
+                                 "REGENT4_EPOCH",
+                                 "REGENT5_EPOCH",
+                                 "REGENT6_EPOCH",
+                                 "REGENT7_EPOCH",
+                                 "NECROBINDER1_EPOCH"
+                             ]
+    },
+    {
+        "id":  "SILENT3_EPOCH",
+        "title":  "疾病",
+        "era":  "Flourish3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Silent",
+        "sort_order":  180300,
+        "description":  "静默猎手的血管中流淌着一种有着熟悉气味的疾病。是那块心脏碎片正在慢慢杀死她！\n那件古怪的战利品已经被扔进了海里，但是荒疫并不存在解药。\n\n她很快就会死去。",
+        "unlock_info":  "以[green]静默猎手[/green]通关[blue]第二[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "TOUGH_BANDAGES",
+                               "PAPER_KRANE",
+                               "TINGSHA"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "IRONCLAD6_EPOCH",
+        "title":  "熄灭",
+        "era":  "Flourish3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Ironclad",
+        "sort_order":  180301,
+        "description":  "传闻说，高塔顶端有着永不停息的火焰，高傲地燃烧着。这并非妄言，因为即使在最寒冷的冬夜，那里附近的云层依旧会被照亮、映照出淡淡的紫罗兰色，证实着传闻的真实性。\n\n然后有一天，云层恢复了正常。\n火焰熄灭了。",
+        "unlock_info":  "以[red]铁甲战士[/red]击杀[blue]15[/blue]个[red]Boss[/red]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "SELF_FORMING_CLAY",
+                               "CHARONS_ASHES",
+                               "DEMON_TONGUE"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "REGENT5_EPOCH",
+        "title":  "朋友",
+        "era":  "Flourish3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Regent",
+        "sort_order":  180302,
+        "description":  "殿下决定自己需要一些朋友，所以就亲手做了一些。\n\n它们相当结实，也还算能够听话执行命令，但同时它们下棋很烂、还喜欢听流行音乐。于是它们很快就从“朋友”被贬职到了“仆从”。\n唉...",
+        "unlock_info":  "以[orange]储君[/orange]击杀[blue]15[/blue]个[purple]精英[/purple]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "BEGONE",
+                              "ARSENAL",
+                              "SUPERMASSIVE"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DEFECT5_EPOCH",
+        "title":  "对抗",
+        "era":  "Flourish3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  3,
+        "story_id":  "Defect",
+        "sort_order":  180303,
+        "description":  "它们正直面着最可怕虫子们的源头：\n一个占据了众多三角形巢穴的带毒黄蜂群。\n\nBiu biu——！！\n\n故障机器人耗尽了能量储备，将六边形巢穴彻底撕开！\n缺陷机器人连发了一阵激光脉冲，压制住了试图反击的蜇刺蜂团！\n\n可是这还不够。",
+        "unlock_info":  "以[blue]故障机器人[/blue]击杀[blue]15[/blue]个[purple]精英[/purple]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "BARRAGE",
+                              "FLAK_CANNON",
+                              "SMOKESTACK"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "POTION1_EPOCH",
+        "title":  "开放",
+        "era":  "Invitation0",
+        "era_name":  "门扉",
+        "era_year":  "2,733",
+        "era_position":  0,
+        "story_id":  "Reopening",
+        "sort_order":  273300,
+        "description":  "云层不祥地翻滚着，首都在肆虐的雷暴中颤抖着，没有人胆敢走出自己的家门。\n\n十二天后，暴雨停止。\n云层仍在，但那些火光已然消失不见。\n\n高塔再一次打开了它的大门。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "BEETLE_JUICE",
+                                "MAZALETHS_GIFT",
+                                "DROPLET_OF_PRECOGNITION"
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "NEOW_EPOCH",
+        "title":  "涅奥",
+        "era":  "Invitation0",
+        "era_name":  "门扉",
+        "era_year":  "2,733",
+        "era_position":  1,
+        "story_id":  "Reopening",
+        "sort_order":  273301,
+        "description":  "复生之母涅奥从沉眠之中苏醒。\n\n“起来.. 勇士..... 再一次。 再一次...”",
+        "unlock_info":  "游玩一局游戏来揭示这个历史节点。",
+        "unlock_text":  "解锁先古之民：[blue]涅奥[/blue]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "COLORLESS1_EPOCH",
+                                 "CUSTOM_AND_SEEDS_EPOCH",
+                                 "DAILY_RUN_EPOCH",
+                                 "DARV_EPOCH",
+                                 "IRONCLAD2_EPOCH",
+                                 "IRONCLAD3_EPOCH",
+                                 "IRONCLAD4_EPOCH",
+                                 "IRONCLAD5_EPOCH",
+                                 "IRONCLAD6_EPOCH",
+                                 "IRONCLAD7_EPOCH",
+                                 "OROBAS_EPOCH",
+                                 "SILENT1_EPOCH"
+                             ]
+    },
+    {
+        "id":  "NECROBINDER2_EPOCH",
+        "title":  "十二人",
+        "era":  "Invitation0",
+        "era_name":  "门扉",
+        "era_year":  "2,733",
+        "era_position":  2,
+        "story_id":  "Necrobinder",
+        "sort_order":  273302,
+        "description":  "谁才有资格进入显赫的高塔呢？\n首都从各地召集来了最聪明、最强大与最勇敢的人们。\n十二名探险者组成了一支远征队，进入高塔试图创造历史。\n\n没有一个人回来。",
+        "unlock_info":  "以[pink]亡灵契约师[/pink]通关[blue]第一[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "SCOURGE",
+                              "OBLIVION",
+                              "COUNTDOWN"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "SILENT1_EPOCH",
+        "title":  "迷雾压境",
+        "era":  "Invitation0",
+        "era_name":  "门扉",
+        "era_year":  "2,733",
+        "era_position":  3,
+        "story_id":  "Silent",
+        "sort_order":  273303,
+        "description":  "高塔重新开放的消息传到了静默猎手的耳中。\n她撑着一支小船，向首都出发。",
+        "unlock_info":  "以[red]铁甲战士[/red]完成一局游戏来揭示这个历史节点。",
+        "unlock_text":  "解锁[green]静默猎手[/green]成为一名可玩角色。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "REGENT1_EPOCH",
+                                 "SILENT2_EPOCH",
+                                 "SILENT3_EPOCH",
+                                 "SILENT4_EPOCH",
+                                 "SILENT5_EPOCH",
+                                 "SILENT6_EPOCH",
+                                 "SILENT7_EPOCH"
+                             ]
+    },
+    {
+        "id":  "REGENT2_EPOCH",
+        "title":  "我已到来",
+        "era":  "Invitation1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Regent",
+        "sort_order":  273400,
+        "description":  "*轰隆——*\n\n华丽的爆炸宣告了储君的到来。殿下的宇宙飞船撞成了碎片，已经不可能修好了。\n\n“终于，我已到来！”",
+        "unlock_info":  "以[orange]储君[/orange]通关[blue]第一[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "SPOILS_OF_BATTLE",
+                              "SWORD_SAGE",
+                              "FURNACE"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "EVENT2_EPOCH",
+        "title":  "他们回来了",
+        "era":  "Invitation1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Reopening",
+        "sort_order":  273401,
+        "description":  "先古之民们纷纷不再躲藏，向着高塔出发……\n\n他们已经有太久没有得到过高塔的赐福了。",
+        "unlock_info":  "通过积累分数来解锁。",
+        "unlock_text":  "解锁事件：[blue]镜中倒影  影倒中镜[/blue]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DEFECT1_EPOCH",
+        "title":  "启动",
+        "era":  "Invitation1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Defect",
+        "sort_order":  273402,
+        "description":  "故障机器人重启完成！\n但却发现自己身处于大量熔化金属、灰烬和数千只虫子尸体之间！？\n数据日志：\u003c已损坏\u003e.\n\n它的核心几乎就要散架、四肢也只能勉强动弹。故障机器人从其他构装体那里拆卸回收了不少损坏的金属板与零件，将自己修补了一番。",
+        "unlock_info":  "用[pink]亡灵契约师[/pink]进行一局游戏来揭示这个历史节点。",
+        "unlock_text":  "解锁[blue]故障机器人[/blue]成为一名可玩角色。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "DEFECT2_EPOCH",
+                                 "DEFECT3_EPOCH",
+                                 "DEFECT4_EPOCH",
+                                 "DEFECT5_EPOCH",
+                                 "DEFECT6_EPOCH",
+                                 "DEFECT7_EPOCH"
+                             ]
+    },
+    {
+        "id":  "NECROBINDER3_EPOCH",
+        "title":  "徒劳",
+        "era":  "Invitation1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  3,
+        "story_id":  "Necrobinder",
+        "sort_order":  273403,
+        "description":  "事件报告 // 日期：2,771-??-??\n意外卷入了一个投掷巨石的人与一些飞行自动机械的纷争。\n\n杰克托弗·格鲁茨（战士）： 被巨石压死\n何塞·帕克索（战士）： 掉进了坑里\n大艾德（吟游诗人）： 被一具构装体射杀\n嘉博·多比（治疗师）： 碰到了草\n特米·蒙迪斯（奥术师）： 下落不明",
+        "unlock_info":  "以[pink]亡灵契约师[/pink]通关[blue]第二[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "BONE_FLUTE",
+                               "FUNERARY_MASK",
+                               "BOOK_REPAIR_KNIFE"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "UNDERDOCKS_EPOCH",
+        "title":  "暗港",
+        "era":  "Invitation1",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  4,
+        "story_id":  "Tales_From_The_Spire",
+        "sort_order":  273404,
+        "description":  "暗港曾是整个高塔中清洁水的一大来源，如今却已年久失修。\n充满敌意的海洋生物从海底出现，在港口迷宫般的道路中居住了下来。",
+        "unlock_info":  "击杀[green]密林[/green]的全部[blue]3[/blue]个Boss来揭示这个历史节点。",
+        "unlock_text":  "解锁[blue]暗港[/blue]，第一阶段的一种变体。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "COLORLESS2_EPOCH",
+                                 "RELIC2_EPOCH",
+                                 "POTION2_EPOCH"
+                             ]
+    },
+    {
+        "id":  "REGENT3_EPOCH",
+        "title":  "我们需要一个英雄！",
+        "era":  "Invitation2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Regent",
+        "sort_order":  273500,
+        "description":  "自从大门开启，致命的怪物们就开始从高塔中不断加速涌出……\n\n许多英勇的战士、探险者和雇佣兵们被派进高塔，却鲜有人都有所进展。\n能活着回来的人只会更少。\n\n储君得知了这一现状，立即决定自己就应该成为先子星最需要的英雄！\n“我进塔！！”",
+        "unlock_info":  "以[orange]储君[/orange]通关[blue]第二[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "FENCING_MANUAL",
+                               "GALACTIC_DUST",
+                               "LUNAR_PASTRY"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DEFECT2_EPOCH",
+        "title":  "欺骗",
+        "era":  "Invitation2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Defect",
+        "sort_order":  273501,
+        "description":  "涅奥复活了这具有着故障的构装体，即使对于先古之民来说，这也是了不起的成就。\n\n“构装体... 你所.. ..失去的....\n你的造主... ..抛弃了你.. ...躲在..... 了... ..塔顶...”\n故障机器人向涅奥表达了感谢，向塔顶出发，前去寻找答案。",
+        "unlock_info":  "以[blue]故障机器人[/blue]通关[blue]第一[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "LOOP",
+                              "NULL",
+                              "CONSUMING_SHADOW"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "NECROBINDER4_EPOCH",
+        "title":  "生于高塔",
+        "era":  "Invitation2",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Necrobinder",
+        "sort_order":  273502,
+        "description":  "“我们本来只是前来调查最初的几个楼层……\n但得到的证据却和我们预想的完全不同！如此神奇的野生动物、有趣的文物、甚至还有游荡的商人。这些奇妙的东西都是从哪里来的呢？\n\n我们的小队看起来一门心思就想搜集财宝，但至少吉欧万和我有着一样的热情。我们已经疯狂地坠入了爱河，很快就要迎接一个孩子来到我们的人生中了。”",
+        "unlock_info":  "以[pink]亡灵契约师[/pink]通关[blue]第三[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  "为[pink]亡灵契约师[/pink]解锁[red]进阶难度[/red]。同时解锁[gold]灾厄药水[/gold]、[gold]尸鬼瓮[/gold]和[gold]骨头酿[/gold]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "POTION_OF_DOOM",
+                                "POT_OF_GHOULS",
+                                "BONE_BREW"
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "REGENT4_EPOCH",
+        "title":  "大战略",
+        "era":  "Invitation3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Regent",
+        "sort_order":  273600,
+        "description":  "“败北！？我！！？星国储君的词典中没有败北！塔顶的那个奇怪男人必须由我、也只能由我来打败！”\n\n储君想出了一个能让自己变得更强的王室级别的天才计划。为了让这份睿智的话语能够永远流传下去，他把那句话刻在了附近的一块石头上：\n\n再 努 力 一 点",
+        "unlock_info":  "以[orange]储君[/orange]通关[blue]第三[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  "为[orange]储君[/orange]解锁[red]进阶难度[/red]。同时解锁[gold]星星药水[/gold]、[gold]宇宙药剂[/gold]和[gold]王之勇气[/gold]。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+                                "STAR_POTION",
+                                "COSMIC_CONCOCTION",
+                                "KINGS_COURAGE"
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "NECROBINDER5_EPOCH",
+        "title":  "巨人",
+        "era":  "Invitation3",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Necrobinder",
+        "sort_order":  273601,
+        "description":  "今天有了一次了不起的发现！\n\n一位善良的巨人答应了会带我们前去高塔的顶端，去见他的兄弟。\n我们认为他的这位兄弟，应该有办法可以阻止从高塔中涌出的怪物们。\n\n这将会成为我们这个时代最伟大的成就！",
+        "unlock_info":  "以[pink]亡灵契约师[/pink]击杀[blue]15[/blue]个[purple]精英[/purple]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "AFTERLIFE",
+                              "SACRIFICE",
+                              "CALCIFY"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "NECROBINDER6_EPOCH",
+        "title":  "覆灭",
+        "era":  "Invitation4",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Necrobinder",
+        "sort_order":  273700,
+        "description":  "在塔顶，他们终于见到了巨人的兄弟，那是一个悬浮在空中的男人。他们恳求得到帮助，却徒劳无功。\n“这里不欢迎闯入者。”\n\n只有一个小女孩活着逃了出来。",
+        "unlock_info":  "以[pink]亡灵契约师[/pink]杀死[blue]15[/blue]个[red]Boss[/red]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+                               "IVORY_TILE",
+                               "BIG_HAT",
+                               "BOOKMARK"
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DARV_EPOCH",
+        "title":  "达弗",
+        "era":  "Invitation4",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Tales_From_The_Spire",
+        "sort_order":  273701,
+        "description":  "“高塔又重新开放了啊？那我的藏品里又可以增添更多财宝咯！”\n\n达弗嗅到了空气中的财富味道，驾着他忠实的坐骑进入了高塔。",
+        "unlock_info":  "遇见其他所有[gold]先古之民[/gold]来揭示这个历史节点。",
+        "unlock_text":  "解锁先古之民：[purple]达弗[/purple].",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "NECROBINDER1_EPOCH",
+        "title":  "生与死",
+        "era":  "Invitation5",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Necrobinder",
+        "sort_order":  273800,
+        "description":  "一个年轻的探险者解开了禁忌魔典的封扣……来自别个时间与地点的魔法瞬间从书中迸发出来，无数黑色轻烟笼罩了那位好奇的年轻人。\n\n她获得了对生与死的理解——但同时也付出了代价。她的皮肤、头发与器官迅速地腐烂衰朽，而她的灵魂被强行绑缚在了她口袋中的吊坠盒上。\n\n魔典轻声低语着：“若我死了，你也会死。”",
+        "unlock_info":  "以[orange]储君[/orange]进行一局游戏来揭示这个历史节点。",
+        "unlock_text":  "解锁[pink]亡灵契约师[/pink]成为一名可玩角色。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+                                 "NECROBINDER2_EPOCH",
+                                 "NECROBINDER3_EPOCH",
+                                 "NECROBINDER4_EPOCH",
+                                 "NECROBINDER5_EPOCH",
+                                 "NECROBINDER6_EPOCH",
+                                 "NECROBINDER7_EPOCH",
+                                 "DEFECT1_EPOCH"
+                             ]
+    },
+    {
+        "id":  "REGENT7_EPOCH",
+        "title":  "小小的王",
+        "era":  "Invitation5",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Regent",
+        "sort_order":  273801,
+        "description":  "“小小的王，你和我一样，散发出强大的气息！”\n坦克斯立即被储君王者般的自信所吸引。\n\n“征服高塔！碾碎所有人！！”嵌合兽咆哮着，将一根奇怪的权杖向他扔去。\n\n“这可以让你公平地战斗！”",
+        "unlock_info":  "通关[red]进阶[/red][blue]1[/blue][orange]储君[/orange]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "PATTER",
+                              "HEAVENLY_DRILL",
+                              "LUNAR_BLAST"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "IRONCLAD7_EPOCH",
+        "title":  "我的脸",
+        "era":  "Invitation5",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  2,
+        "story_id":  "Ironclad",
+        "sort_order":  273802,
+        "description":  "“高塔本就该是由我来统治。可是建筑师又一次活了过来。看看他都对我的脸做了什么。”\n\n恶魔暴怒起来，将自己的房间砸来砸去，点燃了无数东西。\n\n“我的死亡傀儡啊，展示我的力量，再次杀戮吧。杀死建筑师！！”",
+        "unlock_info":  "以[red]铁甲战士[/red]通关[red]进阶[/red][blue]1[/blue]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "BLOOD_WALL",
+                              "TEAR_ASUNDER",
+                              "INFERNO"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "SILENT7_EPOCH",
+        "title":  "汤",
+        "era":  "Invitation5",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  3,
+        "story_id":  "Silent",
+        "sort_order":  273803,
+        "description":  "“你好啊，小家伙……！”巨大的特兹卡塔拉向着静默猎手低语。\n\n“要长得又高又壮哦！”这位先古之民用温柔的语气说着，把一碗营养丰富的汤推了过去。",
+        "unlock_info":  "以[green]静默猎手[/green]通关[red]进阶[/red][blue]1[/blue]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "HIDDEN_DAGGERS",
+                              "BLADE_OF_INK",
+                              "PHANTOM_BLADES"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DAILY_RUN_EPOCH",
+        "title":  "每日挑战",
+        "era":  "Invitation6",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  0,
+        "story_id":  "Tales_From_The_Spire",
+        "sort_order":  273900,
+        "description":  "一个拥有巨大力量的存在，每天一次施展着它对于空间与形态的掌控，改变着高塔的本质。",
+        "unlock_info":  "用所有角色通关[blue]第三[/blue][gold]阶段[/gold]来揭示这个历史节点。",
+        "unlock_text":  "解锁游戏模式：每日挑战。",
+        "unlocks_cards":  [
+
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "DEFECT7_EPOCH",
+        "title":  "哦，亮闪闪！",
+        "era":  "Invitation6",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Defect",
+        "sort_order":  273901,
+        "description":  "故障机器人进入了一个房间，里面胡乱摆放着众多财宝、饰品、武器、珍稀动物、艺术品、书籍以及各种各样垃圾与小物件，挤得满满当当。\n\n如此大量的信息与无序规模让故障机器人可怜的处理核心一时有些无法承受。\n\n“别挡道哈！”一个骑着一条威胁等级9级爬行动物的巨大人形生物高声呼喊着，但它随即停下坐骑，露出奇怪的微笑看向了故障机器人。\n\n“我有东西给你哦！”",
+        "unlock_info":  "以[blue]故障机器人[/blue]通关[red]进阶[/red][blue]1[/blue]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "TURBO",
+                              "SCAVENGE",
+                              "HELIX_DRILL"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    },
+    {
+        "id":  "NECROBINDER7_EPOCH",
+        "title":  "杀戮",
+        "era":  "Invitation7",
+        "era_name":  null,
+        "era_year":  null,
+        "era_position":  1,
+        "story_id":  "Necrobinder",
+        "sort_order":  274001,
+        "description":  "亡灵契约师来到建筑师面前，要求他复原巨人、她的父母和她的人性。她因为复仇而愤怒，可是却一次又一次地被消灭。\n\n在一次攀登的途中，她发现了一条巨大的龙，佩尔。巨龙散发出与相同的温柔气息，他开口说……\n\n“这能帮助你引起他的注意……”",
+        "unlock_info":  "以[pink]亡灵契约师[/pink]通关[red]进阶[/red][blue]1[/blue]来揭示这个历史节点。",
+        "unlock_text":  null,
+        "unlocks_cards":  [
+                              "SCULPTING_STRIKE",
+                              "VEILPIERCER",
+                              "BANSHEES_CRY"
+                          ],
+        "unlocks_relics":  [
+
+                           ],
+        "unlocks_potions":  [
+
+                            ],
+        "expands_timeline":  [
+
+                             ]
+    }
+]

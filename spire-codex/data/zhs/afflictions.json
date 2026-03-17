@@ -1,0 +1,65 @@
+[
+    {
+        "id":  "BOUND",
+        "name":  "魂缚",
+        "description":  "每回合只能打出1张魂缚卡牌。卡牌会在回合结束时失去魂缚。",
+        "extra_card_text":  "魂缚",
+        "is_stackable":  false
+    },
+    {
+        "id":  "ENTANGLED",
+        "name":  "缠身",
+        "description":  "1点能量费用增加1。",
+        "extra_card_text":  "缠身",
+        "is_stackable":  false
+    },
+    {
+        "id":  "GALVANIZED",
+        "name":  "流电",
+        "description":  "打出这张牌时受到点伤害。",
+        "extra_card_text":  "受到[Amount]点伤害。",
+        "is_stackable":  true
+    },
+    {
+        "id":  "HEXED",
+        "name":  "邪咒",
+        "description":  "这张牌获得虚无。",
+        "extra_card_text":  null,
+        "is_stackable":  false
+    },
+    {
+        "id":  "MOCK_NO_UNPLAYABLE_AFFLICTION",
+        "name":  "临时不可打出苦痛",
+        "description":  "",
+        "extra_card_text":  null,
+        "is_stackable":  false
+    },
+    {
+        "id":  "MOCK_SELF_DAMAGE_AFFLICTION",
+        "name":  "临时自伤苦痛",
+        "description":  "",
+        "extra_card_text":  null,
+        "is_stackable":  false
+    },
+    {
+        "id":  "MOCK_USELESS_AFFLICTION",
+        "name":  "临时无用苦痛",
+        "description":  "",
+        "extra_card_text":  null,
+        "is_stackable":  false
+    },
+    {
+        "id":  "RINGING",
+        "name":  "昏眩",
+        "description":  "你在本回合只能打出1张牌。",
+        "extra_card_text":  "昏眩。",
+        "is_stackable":  false
+    },
+    {
+        "id":  "SMOG",
+        "name":  "烟雾",
+        "description":  "你在本回合无法再打出更多技能牌。回合结束时消除。",
+        "extra_card_text":  null,
+        "is_stackable":  false
+    }
+]
