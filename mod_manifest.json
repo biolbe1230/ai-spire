@@ -1,0 +1,7 @@
+{
+  "pck_name": "AISpire",
+  "name": "AISpire - AI Player",
+  "author": "YuxuanLi",
+  "description": "AI mod that automatically plays Slay the Spire 2 using DeepSeek LLM + rule-based fallback",
+  "version": "1.0.0"
+}
