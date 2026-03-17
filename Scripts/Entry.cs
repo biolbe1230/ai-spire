@@ -20,6 +20,9 @@ public class Entry
         harmony.PatchAll();
         ScriptManagerBridge.LookupScriptsInAssembly(typeof(Entry).Assembly);
 
+        // 加载用户配置
+        AIConfig.Load();
+
         // 加载 spire-codex 游戏数据
         GameDataLoader.Init(AIConfig.DataPath);
 

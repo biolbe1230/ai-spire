@@ -34,6 +34,7 @@
     <MakeDir Directories="$(Sts2Dir)\mods\" />
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\" />
     <Copy SourceFiles="$(MSBuildProjectName).json" DestinationFolder="$(Sts2Dir)/mods/$(MSBuildProjectName)/" />
+    <Copy SourceFiles="config.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\" />
     <!-- 复制 spire-codex 游戏数据 -->
     <MakeDir Directories="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />
     <Copy SourceFiles="spire-codex\data\zhs\cards.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />

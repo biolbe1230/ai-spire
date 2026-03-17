@@ -11,7 +11,7 @@ public static class LLMClient
 {
     private static readonly HttpClient _httpClient = new()
     {
-        Timeout = TimeSpan.FromMilliseconds(AIConfig.ApiTimeoutMs)
+        Timeout = TimeSpan.FromMilliseconds(30000) // 初始超时，实际请求时使用 CancellationToken 控制
     };
 
     private static readonly JsonSerializerOptions _jsonOptions = new()

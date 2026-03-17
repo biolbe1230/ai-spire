@@ -1,0 +1,11 @@
+{
+  "api_key": "YOUR_API_KEY_HERE",
+  "api_endpoint": "https://api.deepseek.com/v1/chat/completions",
+  "model": "deepseek-chat",
+  "api_timeout_ms": 15000,
+  "max_retries": 1,
+  "enabled": true,
+  "action_delay_ms": 500,
+  "verbose_logging": true,
+  "max_history_messages": 40
+}

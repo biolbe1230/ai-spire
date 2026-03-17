@@ -1,29 +1,74 @@
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using MegaCrit.Sts2.Core.Logging;
+
 namespace AISpire.Config;
 
 public static class AIConfig
 {
-    // DeepSeek API
-    public const string ApiKey = "sk-876589a840af4e288ca6b116be0dcd9a";
-    public const string ApiEndpoint = "https://api.deepseek.com/v1/chat/completions";
-    public const string Model = "deepseek-chat";
-
-    // 超时与重试
-    public const int ApiTimeoutMs = 15000;
-    public const int MaxRetries = 1;
-
-    // AI 开关
+    // ── 运行时从 config.json 加载的字段 ──
+    public static string ApiKey { get; private set; } = "";
+    public static string ApiEndpoint { get; private set; } = "https://api.deepseek.com/v1/chat/completions";
+    public static string Model { get; private set; } = "deepseek-chat";
+    public static int ApiTimeoutMs { get; private set; } = 15000;
+    public static int MaxRetries { get; private set; } = 1;
     public static bool Enabled { get; set; } = true;
-
-    // 决策间隔（毫秒），防止过快操作
-    public const int ActionDelayMs = 500;
-
-    // 日志
-    public const bool VerboseLogging = true;
+    public static int ActionDelayMs { get; private set; } = 500;
+    public static bool VerboseLogging { get; private set; } = true;
+    public static int MaxHistoryMessages { get; private set; } = 40;
 
     // spire-codex 数据目录（运行时自动定位到 mods/AISpire/data/）
     public static string DataPath =>
         Path.Combine(Path.GetDirectoryName(typeof(AIConfig).Assembly.Location) ?? ".", "data");
 
-    // 多轮对话最大历史消息数（system 不计入）
-    public const int MaxHistoryMessages = 40;
+    /// <summary>
+    /// 从 config.json 加载配置，找不到则使用默认值
+    /// </summary>
+    public static void Load()
+    {
+        var configPath = Path.Combine(
+            Path.GetDirectoryName(typeof(AIConfig).Assembly.Location) ?? ".", "config.json");
+
+        if (!File.Exists(configPath))
+        {
+            Log.Debug($"[AISpire] config.json not found at {configPath}, using defaults");
+            return;
+        }
+
+        try
+        {
+            var json = File.ReadAllText(configPath);
+            var cfg = JsonSerializer.Deserialize<ConfigJson>(json);
+            if (cfg == null) return;
+
+            if (!string.IsNullOrEmpty(cfg.ApiKey)) ApiKey = cfg.ApiKey;
+            if (!string.IsNullOrEmpty(cfg.ApiEndpoint)) ApiEndpoint = cfg.ApiEndpoint;
+            if (!string.IsNullOrEmpty(cfg.Model)) Model = cfg.Model;
+            if (cfg.ApiTimeoutMs.HasValue) ApiTimeoutMs = cfg.ApiTimeoutMs.Value;
+            if (cfg.MaxRetries.HasValue) MaxRetries = cfg.MaxRetries.Value;
+            if (cfg.Enabled.HasValue) Enabled = cfg.Enabled.Value;
+            if (cfg.ActionDelayMs.HasValue) ActionDelayMs = cfg.ActionDelayMs.Value;
+            if (cfg.VerboseLogging.HasValue) VerboseLogging = cfg.VerboseLogging.Value;
+            if (cfg.MaxHistoryMessages.HasValue) MaxHistoryMessages = cfg.MaxHistoryMessages.Value;
+
+            Log.Debug($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}");
+        }
+        catch (Exception e)
+        {
+            Log.Debug($"[AISpire] Error loading config.json: {e.Message}");
+        }
+    }
+
+    private class ConfigJson
+    {
+        [JsonPropertyName("api_key")] public string? ApiKey { get; set; }
+        [JsonPropertyName("api_endpoint")] public string? ApiEndpoint { get; set; }
+        [JsonPropertyName("model")] public string? Model { get; set; }
+        [JsonPropertyName("api_timeout_ms")] public int? ApiTimeoutMs { get; set; }
+        [JsonPropertyName("max_retries")] public int? MaxRetries { get; set; }
+        [JsonPropertyName("enabled")] public bool? Enabled { get; set; }
+        [JsonPropertyName("action_delay_ms")] public int? ActionDelayMs { get; set; }
+        [JsonPropertyName("verbose_logging")] public bool? VerboseLogging { get; set; }
+        [JsonPropertyName("max_history_messages")] public int? MaxHistoryMessages { get; set; }
+    }
 }
