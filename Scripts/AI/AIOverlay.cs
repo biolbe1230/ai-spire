@@ -1,3 +1,4 @@
+using AISpire.Config;
 using Godot;
 using MegaCrit.Sts2.Core.Logging;
 
@@ -23,7 +24,7 @@ public static class AIOverlay
             _canvas = new CanvasLayer();
             _canvas.Layer = 100;
 
-            // 背景面板 — 顶部居中，60% 宽度
+            // 背景面板 - 屏幕顶部居中，60%宽度
             var panel = new PanelContainer();
             panel.AnchorLeft = 0.2f;
             panel.AnchorTop = 0;
@@ -64,16 +65,16 @@ public static class AIOverlay
             {
                 tree.Root.CallDeferred(Node.MethodName.AddChild, _canvas);
                 _initialized = true;
-                Log.Info("[AISpire] Overlay initialized");
+                Log.Debug("[AISpire] Overlay initialized");
             }
             else
             {
-                Log.Info("[AISpire] SceneTree not available for overlay");
+                Log.Debug("[AISpire] SceneTree not available for overlay");
             }
         }
         catch (Exception e)
         {
-            Log.Info($"[AISpire] Overlay init error: {e.Message}");
+            Log.Debug($"[AISpire] Overlay init error: {e.Message}");
         }
     }
 
@@ -89,12 +90,12 @@ public static class AIOverlay
             while (_messages.Count > MaxMessages)
                 _messages.Dequeue();
 
-            var text = "[b][color=cyan]🤖 AI 决策日志[/color][/b]\n" + string.Join("\n", _messages);
+            var text = $"[b][color=cyan]{Loc.OverlayTitle}[/color][/b]\n" + string.Join("\n", _messages);
             _label.CallDeferred(RichTextLabel.MethodName.SetText, text);
         }
         catch (Exception e)
         {
-            Log.Info($"[AISpire] Overlay update error: {e.Message}");
+            Log.Debug($"[AISpire] Overlay update error: {e.Message}");
         }
     }
 
@@ -104,7 +105,7 @@ public static class AIOverlay
 
         try
         {
-            var text = "[b][color=cyan]🤖 AI 决策日志[/color][/b]\n"
+            var text = $"[b][color=cyan]{Loc.OverlayTitle}[/color][/b]\n"
                 + string.Join("\n", _messages)
                 + $"\n[color=gray]{status}[/color]";
             _label.CallDeferred(RichTextLabel.MethodName.SetText, text);

@@ -1,5 +1,6 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Godot;
 using MegaCrit.Sts2.Core.Logging;
 
 namespace AISpire.Config;
@@ -17,24 +18,35 @@ public static class AIConfig
     public static bool VerboseLogging { get; private set; } = true;
     public static int MaxHistoryMessages { get; private set; } = 40;
 
-    // spire-codex 数据目录（运行时自动定位到 mods/AISpire/data/）
-    public static string DataPath =>
-        Path.Combine(Path.GetDirectoryName(typeof(AIConfig).Assembly.Location) ?? ".", "data");
+    // 语言: "zhs"(中文) 或 "en"(英文)，auto 表示跟随游戏
+    public static string Language { get; private set; } = "auto";
 
-    // 语言设置
-    public static string Language { get; private set; } = "zh";
+    private static string _modDir = "";
+
+    // spire-codex 数据目录（根据语言选择 data/en/ 或 data/zhs/）
+    public static string DataPath
+    {
+        get
+        {
+            var lang = Language == "en" ? "en" : "zhs";
+            var langPath = Path.Combine(_modDir, "data", lang);
+            if (Directory.Exists(langPath)) return langPath;
+            // fallback: 无子目录时尝试旧的 data/ 目录
+            return Path.Combine(_modDir, "data");
+        }
+    }
 
     /// <summary>
     /// 从 config.json 加载配置，找不到则使用默认值
     /// </summary>
     public static void Load()
     {
-        var configPath = Path.Combine(
-            Path.GetDirectoryName(typeof(AIConfig).Assembly.Location) ?? ".", "config.json");
+        _modDir = Path.GetDirectoryName(typeof(AIConfig).Assembly.Location) ?? ".";
+        var configPath = Path.Combine(_modDir, "config.json");
 
         if (!File.Exists(configPath))
         {
-            Log.Info($"[AISpire] config.json not found at {configPath}, using defaults");
+            Log.Debug($"[AISpire] config.json not found at {configPath}, using defaults");
             return;
         }
 
@@ -55,11 +67,25 @@ public static class AIConfig
             if (cfg.MaxHistoryMessages.HasValue) MaxHistoryMessages = cfg.MaxHistoryMessages.Value;
             if (!string.IsNullOrEmpty(cfg.Language)) Language = cfg.Language;
 
-            Log.Info($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}");
+            // auto-detect: 从 Godot TranslationServer 获取当前游戏语言
+            if (Language == "auto")
+            {
+                try
+                {
+                    var locale = TranslationServer.GetLocale(); // e.g. "zh_CN", "en"
+                    Language = locale.StartsWith("zh", StringComparison.OrdinalIgnoreCase) ? "zhs" : "en";
+                }
+                catch
+                {
+                    Language = "zhs"; // 获取失败默认中文
+                }
+            }
+
+            Log.Debug($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}, language={Language}");
         }
         catch (Exception e)
         {
-            Log.Info($"[AISpire] Error loading config.json: {e.Message}");
+            Log.Debug($"[AISpire] Error loading config.json: {e.Message}");
         }
     }
 

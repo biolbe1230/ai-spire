@@ -26,13 +26,20 @@ public class GameState
 
     // 事件选项（仅 event 时有值）
     public List<EventOptionInfo>? EventOptions { get; set; }
-    public EventInfo? Event { get; set; }
-
-    // 商店（仅 shop 时有值）
-    public ShopInfo? Shop { get; set; }
+    public string EventTitle { get; set; } = "";
+    public string EventDescription { get; set; } = "";
 
     // 卡牌选择（选卡奖励等）
     public List<CardInfo>? CardChoices { get; set; }
+
+    // 商店（仅 shop 时有值）
+    public List<ShopItemInfo>? ShopItems { get; set; }
+
+    // 营地（仅 rest 时有值）
+    public List<RestSiteOptionInfo>? RestSiteOptions { get; set; }
+
+    // 遗物选择（宝物房/Boss遗物）
+    public List<RelicChoiceInfo>? RelicChoices { get; set; }
 }
 
 public class PlayerInfo
@@ -143,6 +150,32 @@ public class EventOptionInfo
     public bool IsLocked { get; set; }
 }
 
+public class ShopItemInfo
+{
+    public int Index { get; set; }
+    public string Type { get; set; } = "";   // Card, Relic, Potion, CardRemoval
+    public string Name { get; set; } = "";
+    public string Description { get; set; } = "";
+    public int Price { get; set; }
+    public bool CanAfford { get; set; }
+}
+
+public class RestSiteOptionInfo
+{
+    public int Index { get; set; }
+    public string Id { get; set; } = "";
+    public string Name { get; set; } = "";
+    public string Description { get; set; } = "";
+    public bool IsEnabled { get; set; }
+}
+
+public class RelicChoiceInfo
+{
+    public int Index { get; set; }
+    public string Name { get; set; } = "";
+    public string Description { get; set; } = "";
+}
+
 // AI 决策结果
 public class AIDecision
 {
@@ -154,31 +187,10 @@ public class AIDecision
     public int EventOptionIndex { get; set; } = -1;
     public int MapNodeIndex { get; set; } = -1;
     public int CardChoiceIndex { get; set; } = -1;
+    public int RelicChoiceIndex { get; set; } = -1;
     public int ShopItemIndex { get; set; } = -1;
     public string Reasoning { get; set; } = "";
 }
 
 // LLM 多轮对话消息
 public record ChatMessage(string Role, string Content);
-
-// 事件信息
-public class EventInfo
-{
-    public string Name { get; set; } = "";
-    public List<EventOptionInfo> Options { get; set; } = new();
-}
-
-// 商店信息
-public class ShopInfo
-{
-    public List<ShopItemInfo> Items { get; set; } = new();
-}
-
-public class ShopItemInfo
-{
-    public int Index { get; set; }
-    public string Name { get; set; } = "";
-    public string Type { get; set; } = "";  // card, relic, potion
-    public int Price { get; set; }
-    public string Description { get; set; } = "";
-}
