@@ -23,16 +23,16 @@ public static class AIOverlay
             _canvas = new CanvasLayer();
             _canvas.Layer = 100;
 
-            // 背景面板
+            // 背景面板 — 顶部居中，60% 宽度
             var panel = new PanelContainer();
-            panel.AnchorLeft = 0;
-            panel.AnchorTop = 1;
-            panel.AnchorRight = 0;
-            panel.AnchorBottom = 1;
-            panel.OffsetLeft = 8;
-            panel.OffsetTop = -280;
-            panel.OffsetRight = 480;
-            panel.OffsetBottom = -8;
+            panel.AnchorLeft = 0.2f;
+            panel.AnchorTop = 0;
+            panel.AnchorRight = 0.8f;
+            panel.AnchorBottom = 0;
+            panel.OffsetLeft = 0;
+            panel.OffsetTop = 8;
+            panel.OffsetRight = 0;
+            panel.OffsetBottom = 280;
 
             var style = new StyleBoxFlat();
             style.BgColor = new Color(0f, 0f, 0f, 0.72f);
@@ -54,7 +54,7 @@ public static class AIOverlay
             _label.SizeFlagsHorizontal = Control.SizeFlags.Fill | Control.SizeFlags.Expand;
             _label.SizeFlagsVertical = Control.SizeFlags.Fill | Control.SizeFlags.Expand;
             _label.AddThemeColorOverride("default_color", Colors.White);
-            _label.AddThemeFontSizeOverride("normal_font_size", 13);
+            _label.AddThemeFontSizeOverride("normal_font_size", 18);
 
             panel.AddChild(_label);
             _canvas.AddChild(panel);
