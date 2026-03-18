@@ -65,16 +65,16 @@ public static class AIOverlay
             {
                 tree.Root.CallDeferred(Node.MethodName.AddChild, _canvas);
                 _initialized = true;
-                Log.Debug("[AISpire] Overlay initialized");
+                Log.Info("[AISpire] Overlay initialized");
             }
             else
             {
-                Log.Debug("[AISpire] SceneTree not available for overlay");
+                Log.Info("[AISpire] SceneTree not available for overlay");
             }
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Overlay init error: {e.Message}");
+            Log.Info($"[AISpire] Overlay init error: {e.Message}");
         }
     }
 
@@ -95,7 +95,7 @@ public static class AIOverlay
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Overlay update error: {e.Message}");
+            Log.Info($"[AISpire] Overlay update error: {e.Message}");
         }
     }
 

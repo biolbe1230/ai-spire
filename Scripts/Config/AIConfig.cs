@@ -46,7 +46,7 @@ public static class AIConfig
 
         if (!File.Exists(configPath))
         {
-            Log.Debug($"[AISpire] config.json not found at {configPath}, using defaults");
+            Log.Info($"[AISpire] config.json not found at {configPath}, using defaults");
             return;
         }
 
@@ -81,11 +81,11 @@ public static class AIConfig
                 }
             }
 
-            Log.Debug($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}, language={Language}");
+            Log.Info($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}, language={Language}");
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error loading config.json: {e.Message}");
+            Log.Info($"[AISpire] Error loading config.json: {e.Message}");
         }
     }
 

@@ -77,7 +77,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting relics: {e.Message}");
+            Log.Info($"[AISpire] Error extracting relics: {e.Message}");
         }
 
         // 药水
@@ -101,7 +101,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting potions: {e.Message}");
+            Log.Info($"[AISpire] Error extracting potions: {e.Message}");
         }
 
         return info;
@@ -147,7 +147,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting player powers: {e.Message}");
+            Log.Info($"[AISpire] Error extracting player powers: {e.Message}");
         }
 
         // 手牌
@@ -162,7 +162,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting hand: {e.Message}");
+            Log.Info($"[AISpire] Error extracting hand: {e.Message}");
         }
 
         // 敌人
@@ -176,7 +176,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting enemies: {e.Message}");
+            Log.Info($"[AISpire] Error extracting enemies: {e.Message}");
         }
 
         return info;
@@ -285,7 +285,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting intent for {enemy.Name}: {e.Message}");
+            Log.Info($"[AISpire] Error extracting intent for {enemy.Name}: {e.Message}");
         }
 
         // Powers
@@ -311,7 +311,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting enemy powers: {e.Message}");
+            Log.Info($"[AISpire] Error extracting enemy powers: {e.Message}");
         }
 
         return info;
@@ -343,7 +343,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting map: {e.Message}");
+            Log.Info($"[AISpire] Error extracting map: {e.Message}");
         }
 
         return info;
@@ -388,7 +388,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting event: {e.Message}");
+            Log.Info($"[AISpire] Error extracting event: {e.Message}");
         }
 
         return state;
@@ -428,7 +428,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting rest site: {e.Message}");
+            Log.Info($"[AISpire] Error extracting rest site: {e.Message}");
         }
 
         return state;
@@ -550,7 +550,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting shop: {e.Message}");
+            Log.Info($"[AISpire] Error extracting shop: {e.Message}");
         }
 
         return state;

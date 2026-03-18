@@ -1,7 +1,9 @@
 using MegaCrit.Sts2.Core.Combat;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Runs;
@@ -14,28 +16,28 @@ namespace AISpire.AI;
 public static class ActionExecutor
 {
     /// <summary>
-    /// 执行战斗中的 AI 决策
+    /// 执行战斗中的 AI 决策（async：等待卡牌效果完全结算后再返回）
     /// </summary>
-    public static bool ExecuteCombatAction(AIDecision decision, CombatState combatState, Player player)
+    public static async Task<bool> ExecuteCombatAction(AIDecision decision, CombatState combatState, Player player)
     {
         try
         {
             switch (decision.Action)
             {
                 case "play_card":
-                    return ExecutePlayCard(decision, combatState, player);
+                    return await ExecutePlayCard(decision, combatState, player);
                 case "end_turn":
                     return ExecuteEndTurn(combatState, player);
                 case "use_potion":
                     return ExecuteUsePotion(decision, combatState, player);
                 default:
-                    Log.Debug($"[AISpire] Unknown combat action: {decision.Action}");
+                    Log.Info($"[AISpire] Unknown combat action: {decision.Action}");
                     return false;
             }
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error executing action {decision.Action}: {e.Message}");
+            Log.Info($"[AISpire] Error executing action {decision.Action}: {e.Message}");
             return false;
         }
     }
@@ -55,7 +57,7 @@ public static class ActionExecutor
             var children = currentPoint.Children.ToList();
             if (decision.MapNodeIndex < 0 || decision.MapNodeIndex >= children.Count)
             {
-                Log.Debug($"[AISpire] Invalid map node index: {decision.MapNodeIndex}, available: {children.Count}");
+                Log.Info($"[AISpire] Invalid map node index: {decision.MapNodeIndex}, available: {children.Count}");
                 return false;
             }
 
@@ -63,29 +65,29 @@ public static class ActionExecutor
             var action = new MoveToMapCoordAction(player, target.coord);
             RunManager.Instance.ActionQueueSynchronizer.RequestEnqueue(action);
 
-            Log.Debug($"[AISpire] Moving to {target.PointType} at {target.coord}");
+            Log.Info($"[AISpire] Moving to {target.PointType} at {target.coord}");
             return true;
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error executing map move: {e.Message}");
+            Log.Info($"[AISpire] Error executing map move: {e.Message}");
             return false;
         }
     }
 
-    private static bool ExecutePlayCard(AIDecision decision, CombatState combatState, Player player)
+    private static async Task<bool> ExecutePlayCard(AIDecision decision, CombatState combatState, Player player)
     {
         var hand = player.PlayerCombatState.Hand.Cards;
         if (decision.CardIndex < 0 || decision.CardIndex >= hand.Count)
         {
-            Log.Debug($"[AISpire] Invalid card index: {decision.CardIndex}, hand size: {hand.Count}");
+            Log.Info($"[AISpire] Invalid card index: {decision.CardIndex}, hand size: {hand.Count}");
             return false;
         }
 
         var card = hand[decision.CardIndex];
         if (!card.CanPlay())
         {
-            Log.Debug($"[AISpire] Card {card.Title} cannot be played");
+            Log.Info($"[AISpire] Card {card.Title} cannot be played");
             return false;
         }
 
@@ -104,7 +106,7 @@ public static class ActionExecutor
             }
             else
             {
-                Log.Debug("[AISpire] No hittable enemies for targeted card");
+                Log.Info("[AISpire] No hittable enemies for targeted card");
                 return false;
             }
         }
@@ -121,19 +123,20 @@ public static class ActionExecutor
             }
         }
 
-        var action = new PlayCardAction(card, target);
-        RunManager.Instance.ActionQueueSynchronizer.RequestEnqueue(action);
-
-        Log.Debug($"[AISpire] Playing card: {card.Title} -> {target?.Name ?? "no target"}");
+        Log.Info($"[AISpire] Playing card: {card.Title} -> {target?.Name ?? "no target"}");
+        await CardCmd.AutoPlay(new BlockingPlayerChoiceContext(), card, target);
         return true;
     }
 
     private static bool ExecuteEndTurn(CombatState combatState, Player player)
     {
-        var action = new EndPlayerTurnAction(player, combatState.RoundNumber);
-        RunManager.Instance.ActionQueueSynchronizer.RequestEnqueue(action);
-
-        Log.Debug("[AISpire] Ending turn");
+        if (!CombatManager.Instance.IsInProgress || !CombatManager.Instance.IsPlayPhase)
+        {
+            Log.Info("[AISpire] Cannot end turn: combat not in play phase");
+            return false;
+        }
+        PlayerCmd.EndTurn(player, canBackOut: false);
+        Log.Info("[AISpire] Ending turn");
         return true;
     }
 
@@ -142,14 +145,14 @@ public static class ActionExecutor
         var potionSlots = player.PotionSlots;
         if (decision.PotionIndex < 0 || decision.PotionIndex >= potionSlots.Count)
         {
-            Log.Debug($"[AISpire] Invalid potion index: {decision.PotionIndex}");
+            Log.Info($"[AISpire] Invalid potion index: {decision.PotionIndex}");
             return false;
         }
 
         var potion = potionSlots[decision.PotionIndex];
         if (potion == null)
         {
-            Log.Debug($"[AISpire] No potion at slot {decision.PotionIndex}");
+            Log.Info($"[AISpire] No potion at slot {decision.PotionIndex}");
             return false;
         }
 
@@ -165,7 +168,7 @@ public static class ActionExecutor
         var action = new UsePotionAction(potion, target, CombatManager.Instance.IsInProgress);
         RunManager.Instance.ActionQueueSynchronizer.RequestEnqueue(action);
 
-        Log.Debug($"[AISpire] Using potion at slot {decision.PotionIndex} -> {target?.Name ?? "no target"}");
+        Log.Info($"[AISpire] Using potion at slot {decision.PotionIndex} -> {target?.Name ?? "no target"}");
         return true;
     }
 
@@ -176,12 +179,12 @@ public static class ActionExecutor
         try
         {
             RunManager.Instance.EventSynchronizer.ChooseLocalOption(optionIndex);
-            Log.Debug($"[AISpire] Chose event option {optionIndex}");
+            Log.Info($"[AISpire] Chose event option {optionIndex}");
             return true;
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error choosing event option: {e.Message}");
+            Log.Info($"[AISpire] Error choosing event option: {e.Message}");
             return false;
         }
     }
@@ -193,12 +196,12 @@ public static class ActionExecutor
         try
         {
             var result = await RunManager.Instance.RestSiteSynchronizer.ChooseLocalOption(optionIndex);
-            Log.Debug($"[AISpire] Chose rest site option {optionIndex}, result: {result}");
+            Log.Info($"[AISpire] Chose rest site option {optionIndex}, result: {result}");
             return result;
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error choosing rest site option: {e.Message}");
+            Log.Info($"[AISpire] Error choosing rest site option: {e.Message}");
             return false;
         }
     }
@@ -210,12 +213,12 @@ public static class ActionExecutor
         try
         {
             RunManager.Instance.TreasureRoomRelicSynchronizer.PickRelicLocally(relicIndex);
-            Log.Debug($"[AISpire] Picked relic {relicIndex}");
+            Log.Info($"[AISpire] Picked relic {relicIndex}");
             return true;
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error picking relic: {e.Message}");
+            Log.Info($"[AISpire] Error picking relic: {e.Message}");
             return false;
         }
     }
@@ -229,7 +232,7 @@ public static class ActionExecutor
             var entryObj = GameStateExtractor.GetShopEntry(shopItemIndex);
             if (entryObj == null)
             {
-                Log.Debug($"[AISpire] Shop entry not found at index {shopItemIndex}");
+                Log.Info($"[AISpire] Shop entry not found at index {shopItemIndex}");
                 return false;
             }
 
@@ -239,7 +242,7 @@ public static class ActionExecutor
             if (entryObj is MerchantCardRemovalEntry removalEntry)
             {
                 var result = await removalEntry.OnTryPurchaseWrapper(inventory, ignoreCost: false, cancelable: false);
-                Log.Debug($"[AISpire] Card removal purchase: {result}");
+                Log.Info($"[AISpire] Card removal purchase: {result}");
                 return result;
             }
 
@@ -247,16 +250,16 @@ public static class ActionExecutor
             if (entryObj is MerchantEntry merchantEntry)
             {
                 var result = await merchantEntry.OnTryPurchaseWrapper(inventory);
-                Log.Debug($"[AISpire] Shop purchase: {result}");
+                Log.Info($"[AISpire] Shop purchase: {result}");
                 return result;
             }
 
-            Log.Debug($"[AISpire] Unknown shop entry type: {entryObj.GetType().Name}");
+            Log.Info($"[AISpire] Unknown shop entry type: {entryObj.GetType().Name}");
             return false;
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error executing shop purchase: {e.Message}");
+            Log.Info($"[AISpire] Error executing shop purchase: {e.Message}");
             return false;
         }
     }

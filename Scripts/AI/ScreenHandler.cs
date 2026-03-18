@@ -11,6 +11,7 @@ using MegaCrit.Sts2.Core.Nodes.Screens.CardSelection;
 using MegaCrit.Sts2.Core.Nodes.Screens.Map;
 using MegaCrit.Sts2.Core.Nodes.Screens.Overlays;
 using MegaCrit.Sts2.Core.Nodes.GodotExtensions;
+using MegaCrit.Sts2.Core.Nodes.Events;
 using MegaCrit.Sts2.Core.Runs;
 
 namespace AISpire.AI;
@@ -164,7 +165,7 @@ public static class ScreenHandler
         };
 
         AIOverlay.SetStatus(Loc.AnalyzingCards);
-        var decision = await AIDecisionEngine.GetDecisionInternal(state, PromptBuilder.BuildCardSelectionPrompt);
+        var decision = await AIDecisionEngine.GetDecision(state, PromptBuilder.BuildCardSelectionPrompt);
 
         if (decision.Action == "skip_reward")
         {
@@ -298,7 +299,7 @@ public static class ScreenHandler
             CardChoices = cardChoices
         };
 
-        var decision = await AIDecisionEngine.GetDecisionInternal(state, PromptBuilder.BuildCardSelectionPrompt);
+        var decision = await AIDecisionEngine.GetDecision(state, PromptBuilder.BuildCardSelectionPrompt);
         var llmIdx = decision.CardChoiceIndex;
         if (llmIdx < 0 || llmIdx >= cards.Count) llmIdx = 0;
 
@@ -436,7 +437,7 @@ public static class ScreenHandler
             CardChoices = cardChoices
         };
 
-        var decision = await AIDecisionEngine.GetDecisionInternal(state, PromptBuilder.BuildCardSelectionPrompt);
+        var decision = await AIDecisionEngine.GetDecision(state, PromptBuilder.BuildCardSelectionPrompt);
         var idx = decision.CardChoiceIndex;
         if (idx < 0 || idx >= cards.Count) idx = 0;
 
@@ -556,7 +557,7 @@ public static class ScreenHandler
         };
 
         AIOverlay.SetStatus(Loc.AnalyzingCards);
-        var decision = await AIDecisionEngine.GetDecisionInternal(state, PromptBuilder.BuildCardSelectionPrompt);
+        var decision = await AIDecisionEngine.GetDecision(state, PromptBuilder.BuildCardSelectionPrompt);
 
         if (decision.Action == "skip_reward")
         {
@@ -718,6 +719,53 @@ public static class ScreenHandler
             }
             await Task.Delay(500);
         }
+    }
+
+    // ════════════════════════════════════════════
+    //  Event Proceed: click "leave" button after event actions
+    // ════════════════════════════════════════════
+
+    /// <summary>
+    /// After event overlays are drained, check for the event's "leave/proceed" button
+    /// (NEventOptionButton with IsProceed) and click it. Similar to AutoSlayer's
+    /// ClickEventProceedIfNeeded.
+    /// </summary>
+    public static async Task<bool> ClickEventProceedIfNeeded()
+    {
+        var root = ((SceneTree)Engine.GetMainLoop()).Root;
+        var eventRoom = root.GetNodeOrNull("/root/Game/RootSceneContainer/Run/RoomContainer/EventRoom");
+        if (eventRoom == null) return false;
+
+        for (int attempt = 0; attempt < 10; attempt++)
+        {
+            // 如果地图已经打开，不需要点了
+            if (NMapScreen.Instance?.IsOpen ?? false) return false;
+
+            // 找 IsProceed 的事件按钮
+            var proceedBtns = UiHelper.FindAll<NEventOptionButton>(eventRoom)
+                .Where(b => b.IsVisibleInTree() && b.IsEnabled && !b.Option.IsLocked && b.Option.IsProceed)
+                .ToList();
+            if (proceedBtns.Count > 0)
+            {
+                Log.Info("[AISpire] Clicking event proceed option (cleanup)");
+                await UiHelper.Click(proceedBtns[0]);
+                await Task.Delay(500);
+                return true;
+            }
+
+            // 也检查普通的 NProceedButton
+            var proceedBtn = UiHelper.FindFirst<NProceedButton>(eventRoom);
+            if (proceedBtn != null && proceedBtn.IsVisibleInTree() && proceedBtn.IsEnabled)
+            {
+                Log.Info("[AISpire] Clicking event NProceedButton (cleanup)");
+                await UiHelper.Click(proceedBtn);
+                await Task.Delay(500);
+                return true;
+            }
+
+            await Task.Delay(500);
+        }
+        return false;
     }
 
     // ════════════════════════════════════════════
