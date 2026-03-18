@@ -21,6 +21,9 @@ public static class AIConfig
     public static string DataPath =>
         Path.Combine(Path.GetDirectoryName(typeof(AIConfig).Assembly.Location) ?? ".", "data");
 
+    // 语言设置
+    public static string Language { get; private set; } = "zh";
+
     /// <summary>
     /// 从 config.json 加载配置，找不到则使用默认值
     /// </summary>
@@ -31,7 +34,7 @@ public static class AIConfig
 
         if (!File.Exists(configPath))
         {
-            Log.Debug($"[AISpire] config.json not found at {configPath}, using defaults");
+            Log.Info($"[AISpire] config.json not found at {configPath}, using defaults");
             return;
         }
 
@@ -50,12 +53,13 @@ public static class AIConfig
             if (cfg.ActionDelayMs.HasValue) ActionDelayMs = cfg.ActionDelayMs.Value;
             if (cfg.VerboseLogging.HasValue) VerboseLogging = cfg.VerboseLogging.Value;
             if (cfg.MaxHistoryMessages.HasValue) MaxHistoryMessages = cfg.MaxHistoryMessages.Value;
+            if (!string.IsNullOrEmpty(cfg.Language)) Language = cfg.Language;
 
-            Log.Debug($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}");
+            Log.Info($"[AISpire] Config loaded: model={Model}, endpoint={ApiEndpoint}");
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error loading config.json: {e.Message}");
+            Log.Info($"[AISpire] Error loading config.json: {e.Message}");
         }
     }
 
@@ -70,5 +74,6 @@ public static class AIConfig
         [JsonPropertyName("action_delay_ms")] public int? ActionDelayMs { get; set; }
         [JsonPropertyName("verbose_logging")] public bool? VerboseLogging { get; set; }
         [JsonPropertyName("max_history_messages")] public int? MaxHistoryMessages { get; set; }
+        [JsonPropertyName("language")] public string? Language { get; set; }
     }
 }

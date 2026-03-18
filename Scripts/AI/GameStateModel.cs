@@ -26,6 +26,10 @@ public class GameState
 
     // 事件选项（仅 event 时有值）
     public List<EventOptionInfo>? EventOptions { get; set; }
+    public EventInfo? Event { get; set; }
+
+    // 商店（仅 shop 时有值）
+    public ShopInfo? Shop { get; set; }
 
     // 卡牌选择（选卡奖励等）
     public List<CardInfo>? CardChoices { get; set; }
@@ -150,8 +154,31 @@ public class AIDecision
     public int EventOptionIndex { get; set; } = -1;
     public int MapNodeIndex { get; set; } = -1;
     public int CardChoiceIndex { get; set; } = -1;
+    public int ShopItemIndex { get; set; } = -1;
     public string Reasoning { get; set; } = "";
 }
 
 // LLM 多轮对话消息
 public record ChatMessage(string Role, string Content);
+
+// 事件信息
+public class EventInfo
+{
+    public string Name { get; set; } = "";
+    public List<EventOptionInfo> Options { get; set; } = new();
+}
+
+// 商店信息
+public class ShopInfo
+{
+    public List<ShopItemInfo> Items { get; set; } = new();
+}
+
+public class ShopItemInfo
+{
+    public int Index { get; set; }
+    public string Name { get; set; } = "";
+    public string Type { get; set; } = "";  // card, relic, potion
+    public int Price { get; set; }
+    public string Description { get; set; } = "";
+}

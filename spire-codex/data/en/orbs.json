@@ -1,0 +1,27 @@
+[
+    {
+        "id":  "DARK_ORB",
+        "name":  "Dark",
+        "description":  "Passive: At the end of turn, increase this Orb\u0027s damage by X.\nEvoke: Deal X damage to the enemy with the lowest HP."
+    },
+    {
+        "id":  "FROST_ORB",
+        "name":  "Frost",
+        "description":  "Passive: At the end of turn, gain X Block.\nEvoke: Gain X Block."
+    },
+    {
+        "id":  "GLASS_ORB",
+        "name":  "Glass",
+        "description":  "Passive: At the end of turn, deal X damage to ALL enemies and reduce this orb\u0027s value by 1.\nEvoke: Deal X damage to ALL enemies."
+    },
+    {
+        "id":  "LIGHTNING_ORB",
+        "name":  "Lightning",
+        "description":  "Passive: At the end of turn, deal X damage to a random enemy.\nEvoke: Deal X damage to a random enemy."
+    },
+    {
+        "id":  "PLASMA_ORB",
+        "name":  "Plasma",
+        "description":  "Passive: At the start of turn,\ngain 1 energy.\nEvoke: Gain 2 energy.\nPlasma is unaffected by Focus."
+    }
+]

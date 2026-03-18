@@ -35,11 +35,16 @@
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\" />
     <Copy SourceFiles="$(MSBuildProjectName).json" DestinationFolder="$(Sts2Dir)/mods/$(MSBuildProjectName)/" />
     <Copy SourceFiles="config.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\" />
-    <!-- 复制 spire-codex 游戏数据 -->
-    <MakeDir Directories="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />
-    <Copy SourceFiles="spire-codex\data\zhs\cards.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />
-    <Copy SourceFiles="spire-codex\data\zhs\monsters.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />
-    <Copy SourceFiles="spire-codex\data\zhs\powers.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />
-    <Copy SourceFiles="spire-codex\data\zhs\relics.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\" />
+    <!-- 复制 spire-codex 游戏数据（中英双语） -->
+    <MakeDir Directories="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\zhs\" />
+    <Copy SourceFiles="spire-codex\data\zhs\cards.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\zhs\" />
+    <Copy SourceFiles="spire-codex\data\zhs\monsters.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\zhs\" />
+    <Copy SourceFiles="spire-codex\data\zhs\powers.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\zhs\" />
+    <Copy SourceFiles="spire-codex\data\zhs\relics.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\zhs\" />
+    <MakeDir Directories="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\en\" />
+    <Copy SourceFiles="spire-codex\data\en\cards.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\en\" />
+    <Copy SourceFiles="spire-codex\data\en\monsters.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\en\" />
+    <Copy SourceFiles="spire-codex\data\en\powers.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\en\" />
+    <Copy SourceFiles="spire-codex\data\en\relics.json" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\data\en\" />
   </Target>
 </Project>

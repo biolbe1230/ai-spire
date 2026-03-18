@@ -284,4 +284,25 @@ public static class PromptBuilder
         sb.AppendLine("请选择（rest/smith），以JSON格式回复。");
         return sb.ToString();
     }
+
+    public static string BuildShopPrompt(GameState state)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine("## 商店");
+        sb.AppendLine($"角色: {state.Player.Character} | HP: {state.Player.Hp}/{state.Player.MaxHp} | 金币: {state.Player.Gold}");
+        sb.AppendLine($"牌组大小: {state.Player.DeckSize}张");
+        sb.AppendLine();
+        if (state.Shop?.Items.Count > 0)
+        {
+            sb.AppendLine("可购买物品:");
+            foreach (var item in state.Shop.Items)
+            {
+                var affordable = item.Price <= state.Player.Gold ? "" : " [买不起]";
+                sb.AppendLine($"[{item.Index}] {item.Name} ({item.Type}) - {item.Price}金币{affordable} - {item.Description}");
+            }
+        }
+        sb.AppendLine();
+        sb.AppendLine("请选择购买（buy_item + shop_item_index）或离开（leave_shop），以JSON格式回复。");
+        return sb.ToString();
+    }
 }

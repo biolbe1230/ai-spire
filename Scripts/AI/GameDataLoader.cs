@@ -94,24 +94,24 @@ public static class GameDataLoader
     {
         try
         {
-            Log.Debug($"[AISpire] Loading game data from: {dataDir}");
+            Log.Info($"[AISpire] Loading game data from: {dataDir}");
             LoadCards(Path.Combine(dataDir, "cards.json"));
             LoadMonsters(Path.Combine(dataDir, "monsters.json"));
             LoadPowers(Path.Combine(dataDir, "powers.json"));
             LoadRelics(Path.Combine(dataDir, "relics.json"));
             IsLoaded = true;
-            Log.Debug($"[AISpire] Data loaded: {CardsById.Count} cards, {MonstersByName.Count} monsters, {PowersByName.Count} powers, {RelicsById.Count} relics");
+            Log.Info($"[AISpire] Data loaded: {CardsById.Count} cards, {MonstersByName.Count} monsters, {PowersByName.Count} powers, {RelicsById.Count} relics");
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Failed to load game data: {e.Message}");
+            Log.Info($"[AISpire] Failed to load game data: {e.Message}");
             IsLoaded = false;
         }
     }
 
     private static void LoadCards(string path)
     {
-        if (!File.Exists(path)) { Log.Debug($"[AISpire] Not found: {path}"); return; }
+        if (!File.Exists(path)) { Log.Info($"[AISpire] Not found: {path}"); return; }
         var cards = JsonSerializer.Deserialize<List<CodexCard>>(File.ReadAllText(path)) ?? new();
         foreach (var card in cards)
         {
@@ -124,7 +124,7 @@ public static class GameDataLoader
 
     private static void LoadMonsters(string path)
     {
-        if (!File.Exists(path)) { Log.Debug($"[AISpire] Not found: {path}"); return; }
+        if (!File.Exists(path)) { Log.Info($"[AISpire] Not found: {path}"); return; }
         var monsters = JsonSerializer.Deserialize<List<CodexMonster>>(File.ReadAllText(path)) ?? new();
         foreach (var m in monsters)
         {
@@ -135,7 +135,7 @@ public static class GameDataLoader
 
     private static void LoadPowers(string path)
     {
-        if (!File.Exists(path)) { Log.Debug($"[AISpire] Not found: {path}"); return; }
+        if (!File.Exists(path)) { Log.Info($"[AISpire] Not found: {path}"); return; }
         var powers = JsonSerializer.Deserialize<List<CodexPower>>(File.ReadAllText(path)) ?? new();
         foreach (var p in powers)
         {
@@ -148,7 +148,7 @@ public static class GameDataLoader
 
     private static void LoadRelics(string path)
     {
-        if (!File.Exists(path)) { Log.Debug($"[AISpire] Not found: {path}"); return; }
+        if (!File.Exists(path)) { Log.Info($"[AISpire] Not found: {path}"); return; }
         var relics = JsonSerializer.Deserialize<List<CodexRelic>>(File.ReadAllText(path)) ?? new();
         foreach (var r in relics)
         {

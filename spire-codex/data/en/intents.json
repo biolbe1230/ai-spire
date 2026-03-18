@@ -1,0 +1,72 @@
+[
+    {
+        "id":  "ATTACK",
+        "name":  "Aggressive",
+        "description":  "This enemy intends to Attack Xfor X damageX."
+    },
+    {
+        "id":  "BUFF",
+        "name":  "Empower",
+        "description":  "This enemy intends to use a Buff."
+    },
+    {
+        "id":  "CARD_DEBUFF",
+        "name":  "Malicious",
+        "description":  "This enemy intends to apply Afflictions on your cards."
+    },
+    {
+        "id":  "DEATH_BLOW",
+        "name":  "Death Blow",
+        "description":  "This creature is trying to take you down with it. It will attack you for X damage before being destroyed."
+    },
+    {
+        "id":  "DEBUFF",
+        "name":  "Strategic",
+        "description":  "This enemy intends to apply a Debuff to you."
+    },
+    {
+        "id":  "DEBUFF_STRONG",
+        "name":  "Strategic",
+        "description":  "This enemy intends to apply a powerful Debuff to you."
+    },
+    {
+        "id":  "DEFEND",
+        "name":  "Defensive",
+        "description":  "This enemy intends to Block on its turn."
+    },
+    {
+        "id":  "ESCAPE",
+        "name":  "Cowardly",
+        "description":  "This enemy intends to Escape."
+    },
+    {
+        "id":  "HEAL",
+        "name":  "Heal",
+        "description":  "This enemy intends to Heal."
+    },
+    {
+        "id":  "SLEEP",
+        "name":  "Sleeping",
+        "description":  "This enemy is doing nothing this turn."
+    },
+    {
+        "id":  "STATUS",
+        "name":  "Strategic",
+        "description":  "This enemy intends to give you X Status cards."
+    },
+    {
+        "id":  "STUN",
+        "name":  "Stunned",
+        "description":  "This enemy can\u0027t act on its next turn."
+    },
+    {
+        "id":  "SUMMON",
+        "name":  "Summon",
+        "description":  "This enemy intends to summon Monsters."
+    },
+    {
+        "id":  "UNKNOWN",
+        "name":  "Unknown",
+        "description":  "This enemy\u0027s intentions are Unknown."
+    }
+]

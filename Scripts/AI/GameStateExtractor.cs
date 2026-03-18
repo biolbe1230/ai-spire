@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.MonsterMoves.Intents;
+using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.Runs;
 using MegaCrit.Sts2.Core.Map;
 using MegaCrit.Sts2.Core.Context;
@@ -46,7 +47,7 @@ public static class GameStateExtractor
         return state;
     }
 
-    private static PlayerInfo ExtractPlayerInfo(Player player)
+    public static PlayerInfo ExtractPlayerInfo(Player player)
     {
         var info = new PlayerInfo
         {
@@ -74,7 +75,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting relics: {e.Message}");
+            Log.Info($"[AISpire] Error extracting relics: {e.Message}");
         }
 
         // 药水
@@ -98,7 +99,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting potions: {e.Message}");
+            Log.Info($"[AISpire] Error extracting potions: {e.Message}");
         }
 
         return info;
@@ -144,7 +145,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting player powers: {e.Message}");
+            Log.Info($"[AISpire] Error extracting player powers: {e.Message}");
         }
 
         // 手牌
@@ -159,7 +160,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting hand: {e.Message}");
+            Log.Info($"[AISpire] Error extracting hand: {e.Message}");
         }
 
         // 敌人
@@ -173,7 +174,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting enemies: {e.Message}");
+            Log.Info($"[AISpire] Error extracting enemies: {e.Message}");
         }
 
         return info;
@@ -282,7 +283,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting intent for {enemy.Name}: {e.Message}");
+            Log.Info($"[AISpire] Error extracting intent for {enemy.Name}: {e.Message}");
         }
 
         // Powers
@@ -308,7 +309,7 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting enemy powers: {e.Message}");
+            Log.Info($"[AISpire] Error extracting enemy powers: {e.Message}");
         }
 
         return info;
@@ -340,9 +341,183 @@ public static class GameStateExtractor
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Error extracting map: {e.Message}");
+            Log.Info($"[AISpire] Error extracting map: {e.Message}");
         }
 
         return info;
+    }
+
+    // ── Event State ──
+
+    public static GameState ExtractEventState(EventRoom eventRoom, IRunState runState, Player player)
+    {
+        var state = new GameState
+        {
+            Screen = "event",
+            Floor = runState.TotalFloor,
+            ActIndex = runState.CurrentActIndex,
+            Player = ExtractPlayerInfo(player)
+        };
+
+        try
+        {
+            var eventModel = eventRoom.CanonicalEvent;
+            var eventInfo = new EventInfo();
+            var options = new List<EventOptionInfo>();
+
+            if (eventModel?.CurrentOptions != null)
+            {
+                int idx = 0;
+                foreach (var opt in eventModel.CurrentOptions)
+                {
+                    options.Add(new EventOptionInfo
+                    {
+                        Index = idx,
+                        Title = SafeFormat(() => opt.Title.GetFormattedText(), $"Option {idx}"),
+                        Description = SafeFormat(() => opt.Description.GetFormattedText()),
+                        IsLocked = opt.IsLocked
+                    });
+                    idx++;
+                }
+            }
+
+            eventInfo.Options = options;
+            state.Event = eventInfo;
+            state.EventOptions = options;
+        }
+        catch (Exception e)
+        {
+            Log.Info($"[AISpire] Error extracting event state: {e.Message}");
+        }
+
+        return state;
+    }
+
+    // ── Rest Site State ──
+
+    public static GameState ExtractRestSiteState(RestSiteRoom restRoom, IRunState runState, Player player)
+    {
+        var state = new GameState
+        {
+            Screen = "rest",
+            Floor = runState.TotalFloor,
+            ActIndex = runState.CurrentActIndex,
+            Player = ExtractPlayerInfo(player)
+        };
+
+        try
+        {
+            var options = new List<EventOptionInfo>();
+            if (restRoom.Options != null)
+            {
+                int idx = 0;
+                foreach (var opt in restRoom.Options)
+                {
+                    options.Add(new EventOptionInfo
+                    {
+                        Index = idx,
+                        Title = SafeFormat(() => opt.Title.GetFormattedText(), opt.OptionId),
+                        Description = SafeFormat(() => opt.Description.GetFormattedText()),
+                        IsLocked = !opt.IsEnabled
+                    });
+                    idx++;
+                }
+            }
+            state.EventOptions = options;
+        }
+        catch (Exception e)
+        {
+            Log.Info($"[AISpire] Error extracting rest site state: {e.Message}");
+        }
+
+        return state;
+    }
+
+    // ── Shop State ──
+
+    public static GameState ExtractShopState(MerchantRoom shopRoom, IRunState runState, Player player)
+    {
+        var state = new GameState
+        {
+            Screen = "shop",
+            Floor = runState.TotalFloor,
+            ActIndex = runState.CurrentActIndex,
+            Player = ExtractPlayerInfo(player)
+        };
+
+        try
+        {
+            var shopInfo = new ShopInfo();
+            var inventory = shopRoom.Inventory;
+            int idx = 0;
+
+            if (inventory != null)
+            {
+                // Cards
+                foreach (var entry in inventory.CardEntries)
+                {
+                    if (!entry.IsStocked) continue;
+                    var cardName = SafeFormat(() => entry.CreationResult?.Card?.Title ?? "Card");
+                    shopInfo.Items.Add(new ShopItemInfo
+                    {
+                        Index = idx++,
+                        Name = cardName,
+                        Type = "card",
+                        Price = entry.Cost,
+                        Description = SafeFormat(() => entry.CreationResult?.Card?.Description.GetFormattedText() ?? "")
+                    });
+                }
+
+                // Relics
+                foreach (var entry in inventory.RelicEntries)
+                {
+                    if (!entry.IsStocked) continue;
+                    var relicName = SafeFormat(() => entry.Model?.Title.GetFormattedText() ?? "Relic");
+                    shopInfo.Items.Add(new ShopItemInfo
+                    {
+                        Index = idx++,
+                        Name = relicName,
+                        Type = "relic",
+                        Price = entry.Cost,
+                        Description = SafeFormat(() => entry.Model?.Description.GetFormattedText() ?? "")
+                    });
+                }
+
+                // Potions
+                foreach (var entry in inventory.PotionEntries)
+                {
+                    if (!entry.IsStocked) continue;
+                    var potName = SafeFormat(() => entry.Model?.Title.GetFormattedText() ?? "Potion");
+                    shopInfo.Items.Add(new ShopItemInfo
+                    {
+                        Index = idx++,
+                        Name = potName,
+                        Type = "potion",
+                        Price = entry.Cost,
+                        Description = SafeFormat(() => entry.Model?.Description.GetFormattedText() ?? "")
+                    });
+                }
+
+                // Card removal
+                if (inventory.CardRemovalEntry is { IsStocked: true } removal)
+                {
+                    shopInfo.Items.Add(new ShopItemInfo
+                    {
+                        Index = idx++,
+                        Name = "Remove Card",
+                        Type = "removal",
+                        Price = removal.Cost
+                    });
+                }
+            }
+
+            state.Shop = shopInfo;
+        }
+        catch (Exception e)
+        {
+            Log.Info($"[AISpire] Error extracting shop state: {e.Message}");
+        }
+
+        return state;
     }
 }

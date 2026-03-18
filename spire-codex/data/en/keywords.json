@@ -1,0 +1,42 @@
+[
+    {
+        "id":  "ETERNAL",
+        "name":  "Eternal",
+        "description":  "Cannot be removed or transformed from your Deck."
+    },
+    {
+        "id":  "ETHEREAL",
+        "name":  "Ethereal",
+        "description":  "If this card is in your Hand at the end of this turn, it is Exhausted."
+    },
+    {
+        "id":  "EXHAUST",
+        "name":  "Exhaust",
+        "description":  "Removed until the end of combat."
+    },
+    {
+        "id":  "INNATE",
+        "name":  "Innate",
+        "description":  "Start each combat with this card in your Hand."
+    },
+    {
+        "id":  "PERIOD",
+        "name":  "Period",
+        "description":  ""
+    },
+    {
+        "id":  "RETAIN",
+        "name":  "Retain",
+        "description":  "Retained cards are not discarded at the end of turn."
+    },
+    {
+        "id":  "SLY",
+        "name":  "Sly",
+        "description":  "If this card is discarded from your Hand before the end of your turn, play it for free."
+    },
+    {
+        "id":  "UNPLAYABLE",
+        "name":  "Unplayable",
+        "description":  "Unplayable cards cannot be played."
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id":  "ALL_STAR",
+        "name":  "All Star",
+        "description":  "Start with 5 colorless cards."
+    },
+    {
+        "id":  "BIG_GAME_HUNTER",
+        "name":  "Big Game Hunter",
+        "description":  "Elite enemies swarm the Spire and drop better rewards."
+    },
+    {
+        "id":  "BINARY",
+        "name":  "Binary",
+        "description":  "Card rewards now contain only 2 cards."
+    },
+    {
+        "id":  "CURSED_RUN",
+        "name":  "Cursed Run",
+        "description":  "At the start of each Act, add a random Curse to your deck."
+    },
+    {
+        "id":  "DEADLY_EVENTS",
+        "name":  "Deadly Events",
+        "description":  "Unknown rooms can now contain Elites, but are also more likely to contain Treasure rooms."
+    },
+    {
+        "id":  "DRAFT",
+        "name":  "Draft",
+        "description":  "Choose 10 card rewards to replace your starting deck."
+    },
+    {
+        "id":  "FLIGHT",
+        "name":  "Flight",
+        "description":  "You may ignore paths when choosing the next room to travel to."
+    },
+    {
+        "id":  "HOARDER",
+        "name":  "Hoarder",
+        "description":  "Whenever you add a card to your deck, add 2 additional copies. You can no longer remove cards from your deck at the Merchant."
+    },
+    {
+        "id":  "INSANITY",
+        "name":  "Insanity",
+        "description":  "Start with a random deck of 30 cards."
+    },
+    {
+        "id":  "MIDAS",
+        "name":  "Midas",
+        "description":  "Enemies drop 200% more gold, but you can no longer Smith at Rest Sites."
+    },
+    {
+        "id":  "MURDEROUS",
+        "name":  "Murderous",
+        "description":  "You start each combat with 3 Strength. All enemies start combat with 3 Strength."
+    },
+    {
+        "id":  "NIGHT_TERRORS",
+        "name":  "Night Terrors",
+        "description":  "Resting at Rest Sites heals all of your HP, but costs 5 Max HP."
+    },
+    {
+        "id":  "SEALED_DECK",
+        "name":  "Sealed Deck",
+        "description":  "Choose 10 out of 30 cards to replace your starting deck."
+    },
+    {
+        "id":  "SPECIALIZED",
+        "name":  "Specialized",
+        "description":  "Start with 5 copies of a single card."
+    },
+    {
+        "id":  "TERMINAL",
+        "name":  "Terminal",
+        "description":  "Whenever you enter a new room, lose 1 Max HP. Start each combat with 5 Plating."
+    },
+    {
+        "id":  "VINTAGE",
+        "name":  "Vintage",
+        "description":  "Normal enemies drop relics instead of cards."
+    }
+]

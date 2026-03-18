@@ -51,7 +51,7 @@ public static class LLMClient
 
                 if (!response.IsSuccessStatusCode)
                 {
-                    Log.Debug($"[AISpire] LLM API error (attempt {attempt}): {response.StatusCode} - {responseJson}");
+                    Log.Info($"[AISpire] LLM API error (attempt {attempt}): {response.StatusCode} - {responseJson}");
                     continue;
                 }
 
@@ -59,11 +59,11 @@ public static class LLMClient
             }
             catch (TaskCanceledException)
             {
-                Log.Debug($"[AISpire] LLM API timeout (attempt {attempt})");
+                Log.Info($"[AISpire] LLM API timeout (attempt {attempt})");
             }
             catch (Exception e)
             {
-                Log.Debug($"[AISpire] LLM API error (attempt {attempt}): {e.Message}");
+                Log.Info($"[AISpire] LLM API error (attempt {attempt}): {e.Message}");
             }
         }
 
@@ -94,14 +94,14 @@ public static class LLMClient
             var text = message.GetProperty("content").GetString() ?? "";
 
             if (AIConfig.VerboseLogging)
-                Log.Debug($"[AISpire] LLM raw response: {text}");
+                Log.Info($"[AISpire] LLM raw response: {text}");
 
             // 从响应中提取 JSON
             var jsonStart = text.IndexOf('{');
             var jsonEnd = text.LastIndexOf('}');
             if (jsonStart < 0 || jsonEnd < 0 || jsonEnd <= jsonStart)
             {
-                Log.Debug("[AISpire] No JSON found in LLM response");
+                Log.Info("[AISpire] No JSON found in LLM response");
                 return (null, text);
             }
 
@@ -111,7 +111,7 @@ public static class LLMClient
         }
         catch (Exception e)
         {
-            Log.Debug($"[AISpire] Failed to parse LLM response: {e.Message}");
+            Log.Info($"[AISpire] Failed to parse LLM response: {e.Message}");
             return (null, null);
         }
     }

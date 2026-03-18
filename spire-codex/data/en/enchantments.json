@@ -1,0 +1,200 @@
+[
+    {
+        "id":  "ADROIT",
+        "name":  "Adroit",
+        "description":  "Gain X Block.",
+        "extra_card_text":  "Gain X [gold]Block[/gold].",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "CLONE",
+        "name":  "Clone",
+        "description":  "This card can be duplicated at Rest Sites.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "CORRUPTED",
+        "name":  "Corrupted",
+        "description":  "Deal 50% more damage, but lose 2 HP.",
+        "extra_card_text":  "Lose 2 HP.",
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "FAVORED",
+        "name":  "Favored",
+        "description":  "This card\u0027s attack damage is doubled.",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "GLAM",
+        "name":  "Glam",
+        "description":  "This card has Replay once per combat.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "GOOPY",
+        "name":  "Goopy",
+        "description":  "This card gains Exhaust. When played, permanently increase this card\u0027s Block by 1.",
+        "extra_card_text":  "Permanently increase this card\u0027s [gold]Block[/gold] by [blue]1[/blue].",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "IMBUED",
+        "name":  "Imbued",
+        "description":  "This card is played automatically at the start of each combat.",
+        "extra_card_text":  "Imbued.",
+        "card_type":  "Skill",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "INSTINCT",
+        "name":  "Instinct",
+        "description":  "Decrease the cost of this card by 1.",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "MOMENTUM",
+        "name":  "Momentum",
+        "description":  "Increase this card\u0027s attack damage by X this combat when played.",
+        "extra_card_text":  "Increase this card\u0027s damage by X this combat.",
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "NIMBLE",
+        "name":  "Nimble",
+        "description":  "Increases Block gained from this card by X.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "PERFECT_FIT",
+        "name":  "Perfect Fit",
+        "description":  "Whenever this would be shuffled into your Draw Pile, place it on the top instead.",
+        "extra_card_text":  "Perfect Fit.",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "ROYALLY_APPROVED",
+        "name":  "Royally Approved",
+        "description":  "This card has Innate and Retain.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SHARP",
+        "name":  "Sharp",
+        "description":  "Increases damage on this card by X.",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SLITHER",
+        "name":  "Slither",
+        "description":  "When you draw this card, randomize its cost from 0 to 3.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SLUMBERING_ESSENCE",
+        "name":  "Slumbering Essence",
+        "description":  "If this card is in your hand at the end of turn, reduce its cost by 1 until it is played.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SOULS_POWER",
+        "name":  "Soul\u0027s Power",
+        "description":  "This card loses Exhaust.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SOWN",
+        "name":  "Sown",
+        "description":  "The first time you play this card each combat, gain X energy.",
+        "extra_card_text":  "Gain [energy:X].",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SPIRAL",
+        "name":  "Spiral",
+        "description":  "This card gains Replay 1.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "STEADY",
+        "name":  "Steady",
+        "description":  "This card gains Retain.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "SWIFT",
+        "name":  "Swift",
+        "description":  "The first time you play this card, draw X cards.",
+        "extra_card_text":  "Draw X cards the first time this is played.",
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "TEZCATARAS_EMBER",
+        "name":  "Tezcatara\u0027s Ember",
+        "description":  "Costs 0 and gains Eternal.",
+        "extra_card_text":  null,
+        "card_type":  null,
+        "is_stackable":  false,
+        "image_url":  null
+    },
+    {
+        "id":  "VIGOROUS",
+        "name":  "Vigorous",
+        "description":  "The first time this card is played, it deals X additional damage.",
+        "extra_card_text":  null,
+        "card_type":  "Attack",
+        "is_stackable":  false,
+        "image_url":  null
+    }
+]
