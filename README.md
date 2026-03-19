@@ -43,19 +43,17 @@ AI 会实时分析战斗状态、手牌、敌人意图，通过 DeepSeek 等 LLM
 mods/
 └── AISpire/
     ├── AISpire.dll          # Mod 主体
-    ├── AISpire.json         # Mod 清单（必须保留）
+    ├── AISpire.json         # Mod 清单
     ├── config.json          # 配置文件（需要编辑）
     └── data/                # 游戏数据
         ├── en/              # 英文数据
         │   ├── cards.json
-        │   ├── monsters.json
-        │   ├── powers.json
-        │   └── relics.json
+        │   └── monsters.json
+        │   ...
         └── zhs/             # 中文数据
             ├── cards.json
-            ├── monsters.json
-            ├── powers.json
-            └── relics.json
+            └── monsters.json
+            ...
 ```
 
 > ⚠️ 以上所有文件都是必需的，请勿删除。
