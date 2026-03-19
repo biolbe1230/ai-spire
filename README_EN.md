@@ -1,7 +1,7 @@
 [**中文**](README.md) | English
 
 # AI Spire 🃏🤖
-![alt text](front_page.png)
+![alt text](front_page_v2.png)
 An AI Mod that uses LLMs to automatically play Slay the Spire 2.
 
 The AI analyzes combat state, hand cards, and enemy intents in real time, making decisions through LLM APIs (DeepSeek, OpenAI-compatible, etc.) to automatically play cards, use potions, choose map paths, and handle all game events.

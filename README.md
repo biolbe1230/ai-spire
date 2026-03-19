@@ -1,7 +1,7 @@
 中文 | [**English**](README_EN.md)
 
 # AI Spire 🃏🤖
-![alt text](front_page.png)
+![alt text](front_page_v2.png)
 用 LLM 自动玩杀戮尖塔 2 (Slay the Spire 2) 的 AI Mod。
 
 AI 会实时分析战斗状态、手牌、敌人意图，通过 DeepSeek 等 LLM API 做出决策，自动出牌、使用药水、选择地图路径。
