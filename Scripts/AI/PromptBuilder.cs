@@ -58,7 +58,9 @@ public static class PromptBuilder
 
 ### 第4步：确定出牌优先级
 按以下顺序选择要打的牌：
-1. **Power牌** → 永久效果，越早打价值越大（但注意Power的效果对当前敌人是否有意义）
+1. **Power牌** → 永久效果，越早打价值越大，但需三重评估：①效果对当前敌人是否有意义 ②效果能否被你的牌组/能量实际利用 ③打出Power的能量机会成本是否值得
+   - 例：Power每回合复制/生成一张牌，但你没有多余能量打出该牌 → 该Power价值极低，不要打
+   - 例：Power需要你每回合打N张攻击才触发，但为此你必须放弃防御 → 评估触发收益是否大于掉血代价
 2. **0费牌** → 免费收益，无脑打出
 3. **核心策略牌** → 根据第3步的策略方向选择攻击/防御
 4. **X费卡** → 放在最后打，确保吃到所有剩余能量
@@ -90,6 +92,8 @@ public static class PromptBuilder
 - **每回合决策时，先评估：速杀(几回合内击杀) vs 持久战(靠能力滚雪球)哪个更优**
 - 考虑抽牌堆循环：关键牌大约每N回合出现一次（N≈牌组大小÷5）
 - **务必注意敌人的特殊能力对你策略的否定效果**：如果敌人限制受到的伤害，增加攻击力的Power就不值得打
+- **不要为了触发能力而扭曲策略**：如果某个Power/能力需要你以亚最优方式出牌（如为凑3张攻击牌而放弃全部防御），要评估触发收益是否大于策略扭曲的代价。如果代价（掉血、放弃格挡）> 收益（生成一张打不出的牌），就忽略该触发条件，按正常攻防节奏出牌
+- **生成/复制卡牌的能力评估**：如果Power/能力会生成或复制牌到手中，必须确认你有足够能量打出它。如果生成的牌费用≥1而你的能量通常已花完，该能力几乎无用，不应为它改变策略
 
 ## 地图策略
 - HP充足(>70%)时可走精英
@@ -160,7 +164,9 @@ Check all your active powers and understand your current bonuses:
 
 ### Step 4: Determine Card Priority
 Play cards in this order:
-1. **Power cards** → permanent effects, play early (but only if useful against this enemy)
+1. **Power cards** → permanent effects, play early, but triple-check first: ①is the effect useful against THIS enemy? ②can your deck/energy actually EXPLOIT the effect? ③is the energy cost worth the opportunity cost?
+   - Example: a Power copies/generates a card each turn, but you have no spare energy to play it → the Power is near worthless, don't play it
+   - Example: a Power requires playing N attacks per turn to trigger, but this forces you to skip all defense → evaluate if the trigger benefit outweighs the HP loss
 2. **0-cost cards** → free value, always play
 3. **Core strategy cards** → offense or defense based on Step 3
 4. **X-cost cards** → play LAST to consume all remaining energy
@@ -192,6 +198,8 @@ Think like dynamic programming — consider how current decisions affect future 
 - **Each turn: evaluate quick kill (within few turns) vs. sustained fight (snowball with powers).**
 - Consider draw pile cycling: key cards appear roughly every N turns (N ≈ deck size ÷ 5).
 - **Always check if enemy powers negate your strategy**: damage caps make attack buffs useless.
+- **Don't warp your strategy to trigger an ability**: If a Power/ability requires suboptimal play to trigger (e.g. playing 3 attacks and skipping all defense), evaluate whether the trigger benefit outweighs the strategic cost. If the cost (losing HP, skipping Block) > benefit (generating an unplayable card), ignore the trigger condition and play normally.
+- **Evaluate card-generation abilities carefully**: If a Power/ability generates or copies cards to your hand, verify you have enough energy to actually play them. If the generated card costs ≥1 energy and your energy is typically spent, the ability is nearly worthless — do not change your strategy for it.
 
 ## Map Strategy
 - HP above 70%: can take Elite fights.
