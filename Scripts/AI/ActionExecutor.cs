@@ -3,7 +3,6 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions;
-using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Runs;
@@ -124,7 +123,12 @@ public static class ActionExecutor
         }
 
         Log.Info($"[AISpire] Playing card: {card.Title} -> {target?.Name ?? "no target"}");
-        await CardCmd.AutoPlay(new BlockingPlayerChoiceContext(), card, target);
+
+        // 使用 PlayCardAction 入队（正常扣能量），然后等待动作队列清空
+        var action = new PlayCardAction(card, target);
+        RunManager.Instance.ActionQueueSynchronizer.RequestEnqueue(action);
+        await RunManager.Instance.ActionQueueSet.BecameEmpty();
+
         return true;
     }
 

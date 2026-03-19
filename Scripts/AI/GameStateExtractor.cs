@@ -135,7 +135,7 @@ public static class GameStateExtractor
                 var codexPower = GameDataLoader.FindPower(powerId, powerName);
                 var desc = codexPower != null
                     ? GameDataLoader.CleanDescription(codexPower.Description)
-                    : "";
+                    : SafeFormat(() => power.Description.GetFormattedText(), "");
                 info.PlayerPowers.Add(new PowerInfo
                 {
                     Name = powerName,
@@ -299,7 +299,7 @@ public static class GameStateExtractor
                 var codexPower = GameDataLoader.FindPower(powerId, powerName);
                 var desc = codexPower != null
                     ? GameDataLoader.CleanDescription(codexPower.Description)
-                    : "";
+                    : SafeFormat(() => power.Description.GetFormattedText(), "");
                 info.Powers.Add(new PowerInfo
                 {
                     Name = powerName,
